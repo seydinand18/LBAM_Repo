@@ -1,2 +1,10 @@
 Screen1 As screen:
 
+    Button1 As button:
+        Height: =80
+        Text: ="Clic me"
+        Width: =227
+        X: =580
+        Y: =312
+        ZIndex: =1
+

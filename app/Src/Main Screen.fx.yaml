@@ -1,6 +1,5 @@
 "'Main Screen' As screen":
-    BackgroundImage: =workflows
-    ImagePosition: =ImagePosition.Fill
+    BackgroundImage: =
 
     "'Main container' As groupContainer.horizontalAutoLayoutContainer":
         Height: =Parent.Height
@@ -72,6 +71,13 @@
                     LayoutMode: =LayoutMode.Auto
                     Width: =Parent.Width
                     ZIndex: =1
+
+                    Image3 As image:
+                        FillPortions: =1
+                        Image: =workflows
+                        ImagePosition: =ImagePosition.Fill
+                        Width: =Parent.Width
+                        ZIndex: =1
 
                 "'Footer container' As groupContainer.horizontalAutoLayoutContainer":
                     AlignInContainer: =AlignInContainer.SetByContainer

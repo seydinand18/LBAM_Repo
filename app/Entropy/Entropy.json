@@ -28,6 +28,7 @@
     "Header container": 27,
     "HeaderLabel": 8,
     "Icon2": 24,
+    "Image3": 38,
     "Label3": 23,
     "Main container": 26,
     "Main Screen": 25,
@@ -42,7 +43,7 @@
     "VersionLabel": 6
   },
   "FunctionParamsInvariantScripts": {},
-  "HeaderLastSavedDateTimeUTC": "01/31/2022 17:01:30",
+  "HeaderLastSavedDateTimeUTC": "01/31/2022 17:11:13",
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {
     "workflows": "7a00647a-ffe5-448c-9bcc-7afc709521b9.png"
@@ -104,6 +105,7 @@
     "Header container": 1,
     "HeaderLabel": 10,
     "Icon2": 25,
+    "Image3": 0,
     "Label3": 24,
     "Main container": 0,
     "Main Screen": 24,
@@ -111,10 +113,10 @@
     "Menu container": 4,
     "MenuOpenerIcon": 19,
     "No name container": 6,
-    "ProfileDetailsGroup": 14,
+    "ProfileDetailsGroup": 15,
     "ProfileImage_maxi": 16,
     "ProfileImage_mini": 13,
-    "UserDetailsRectangle": 15,
+    "UserDetailsRectangle": 14,
     "VersionLabel": 28
   },
   "ResourcesJsonIndices": {

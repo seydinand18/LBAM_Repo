@@ -1,2 +1,57 @@
 "'Main Screen' As screen":
 
+    "'Main container' As groupContainer.horizontalAutoLayoutContainer":
+        Height: =Parent.Height
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        Width: =Parent.Width
+        X: =
+        ZIndex: =2
+
+        "'Header container' As groupContainer.horizontalAutoLayoutContainer":
+            AlignInContainer: =AlignInContainer.SetByContainer
+            BorderThickness: =1
+            FillPortions: =0
+            Height: =50
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            Width: =Parent.Width
+            ZIndex: =1
+
+        "'Body container' As groupContainer.horizontalAutoLayoutContainer":
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            ZIndex: =2
+
+            "'Menu container' As groupContainer.verticalAutoLayoutContainer":
+                AlignInContainer: =AlignInContainer.SetByContainer
+                LayoutDirection: =LayoutDirection.Vertical
+                LayoutMinHeight: =100
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                ZIndex: =2
+
+            "'No name container' As groupContainer.verticalAutoLayoutContainer":
+                LayoutDirection: =LayoutDirection.Vertical
+                LayoutMinHeight: =100
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                ZIndex: =3
+
+                "'Content container' As groupContainer.verticalAutoLayoutContainer":
+                    AlignInContainer: =AlignInContainer.SetByContainer
+                    LayoutDirection: =LayoutDirection.Vertical
+                    LayoutMinHeight: =100
+                    LayoutMinWidth: =250
+                    LayoutMode: =LayoutMode.Auto
+                    ZIndex: =1
+
+                "'Footer container' As groupContainer.horizontalAutoLayoutContainer":
+                    AlignInContainer: =AlignInContainer.SetByContainer
+                    LayoutMinHeight: =100
+                    LayoutMinWidth: =250
+                    LayoutMode: =LayoutMode.Auto
+                    ZIndex: =2
+

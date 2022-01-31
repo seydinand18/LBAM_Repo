@@ -1,0 +1,47 @@
+"'Atos SN Footer Component' As CanvasComponent":
+    AppCopyright: ="All rights reserved @Atos "& Year(Now())
+    AppVersion: ="V1.0.0.0"
+    Fill: ='Atos SN Footer Component'.FooterFill
+    FooterColor: =RGBA(0, 0, 0, 1)
+    FooterFill: =LightGray
+    FooterFont: =
+    FooterFontSize: =14
+    FooterHeight: =40
+    FooterTitle: ="Footer"
+    Height: ='Atos SN Footer Component'.FooterHeight
+    Width: =App.Width
+    X: =0
+    Y: =0
+    ZIndex: =2
+
+    Container1 As groupContainer.horizontalAutoLayoutContainer:
+        Height: =Parent.Height
+        LayoutMode: =LayoutMode.Auto
+        Width: =Parent.Width
+        X: =
+        ZIndex: =1
+
+        CopyrightLabel As label:
+            FillPortions: =4
+            Font: ='Atos SN Footer Component'.FooterFont
+            Height: =Parent.Height
+            LayoutMinHeight: =70
+            LayoutMinWidth: =0
+            Size: ='Atos SN Footer Component'.FooterFontSize
+            Text: |-
+                ='Atos SN Footer Component'.AppCopyright & " Screen Size: " & App.ActiveScreen.Size & " Screen Width: " & App.ActiveScreen.Width &" Screen Height : "& App.ActiveScreen.Height
+            Width: =560
+            ZIndex: =1
+
+        VersionLabel As label:
+            Align: =Align.Right
+            FillPortions: =1
+            Font: ='Atos SN Footer Component'.FooterFont
+            Height: =Parent.Height
+            LayoutMinHeight: =70
+            LayoutMinWidth: =0
+            Size: ='Atos SN Footer Component'.FooterFontSize
+            Text: ='Atos SN Footer Component'.AppVersion
+            Width: =560
+            ZIndex: =2
+

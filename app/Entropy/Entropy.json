@@ -2,11 +2,10 @@
   "ComponentIndexes": {},
   "ControlUniqueIds": {
     "App": 1,
-    "Button1": 4,
     "Screen1": 3
   },
   "FunctionParamsInvariantScripts": {},
-  "HeaderLastSavedDateTimeUTC": "01/31/2022 09:39:44",
+  "HeaderLastSavedDateTimeUTC": "01/31/2022 11:04:48",
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
   "LocalResourceRootPaths": {},
@@ -15,12 +14,9 @@
   "OrderDataSource": {},
   "OrderGroupControls": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {
-    "button": 0
-  },
+  "OrderXMLTemplate": {},
   "PublishOrderIndices": {
     "App": 0,
-    "Button1": 3,
     "Screen1": 2
   },
   "ResourcesJsonIndices": {},

@@ -937,7 +937,8 @@
       "LayoutOverflowX",
       "LayoutOverflowY",
       "LayoutWrap",
-      "ZIndex"
+      "ZIndex",
+      "EnableChildFocus"
     ],
     "DynamicProperties": [
       {
@@ -1077,7 +1078,7 @@
       },
       {
         "Category": "Design",
-        "PropertyName": "DisplayMode",
+        "PropertyName": "EnableChildFocus",
         "RuleProviderType": "Unknown"
       }
     ],
@@ -1104,7 +1105,8 @@
       "LayoutOverflowX",
       "LayoutOverflowY",
       "LayoutWrap",
-      "ZIndex"
+      "ZIndex",
+      "EnableChildFocus"
     ],
     "DynamicProperties": [
       {
@@ -1244,7 +1246,7 @@
       },
       {
         "Category": "Design",
-        "PropertyName": "DisplayMode",
+        "PropertyName": "EnableChildFocus",
         "RuleProviderType": "Unknown"
       }
     ],
@@ -1272,7 +1274,8 @@
       "LayoutOverflowY",
       "LayoutWrap",
       "ZIndex",
-      "EnableChildFocus"
+      "EnableChildFocus",
+      "BorderThickness"
     ],
     "DynamicProperties": [
       {
@@ -1332,6 +1335,11 @@
     "ParentIndex": 0,
     "PersistMetaDataIDKey": false,
     "Properties": [
+      {
+        "Category": "Design",
+        "PropertyName": "BorderThickness",
+        "RuleProviderType": "Unknown"
+      },
       {
         "Category": "Design",
         "PropertyName": "BorderStyle",
@@ -1847,7 +1855,8 @@
       "LayoutOverflowX",
       "LayoutOverflowY",
       "LayoutWrap",
-      "ZIndex"
+      "ZIndex",
+      "EnableChildFocus"
     ],
     "DynamicProperties": [
       {
@@ -1937,11 +1946,6 @@
       },
       {
         "Category": "Design",
-        "PropertyName": "DisplayMode",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
         "PropertyName": "ChildTabPriority",
         "RuleProviderType": "Unknown"
       },
@@ -1988,6 +1992,11 @@
       {
         "Category": "Design",
         "PropertyName": "ZIndex",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "EnableChildFocus",
         "RuleProviderType": "Unknown"
       }
     ],

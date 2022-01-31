@@ -19,22 +19,37 @@
             Width: =Parent.Width
             ZIndex: =1
 
-        Container4 As groupContainer.horizontalAutoLayoutContainer:
+        "'Body container' As groupContainer.horizontalAutoLayoutContainer":
             LayoutMinHeight: =100
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
             ZIndex: =2
 
-            Container6 As groupContainer.verticalAutoLayoutContainer:
+            "'Menu container' As groupContainer.verticalAutoLayoutContainer":
+                AlignInContainer: =AlignInContainer.SetByContainer
                 LayoutDirection: =LayoutDirection.Vertical
                 LayoutMinHeight: =100
                 LayoutMinWidth: =250
                 LayoutMode: =LayoutMode.Auto
                 ZIndex: =2
 
-                Container10 As groupContainer.horizontalAutoLayoutContainer:
-                    FillPortions: =0
-                    Height: =50
+            "'No name container' As groupContainer.verticalAutoLayoutContainer":
+                LayoutDirection: =LayoutDirection.Vertical
+                LayoutMinHeight: =100
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                ZIndex: =3
+
+                "'Content container' As groupContainer.verticalAutoLayoutContainer":
+                    AlignInContainer: =AlignInContainer.SetByContainer
+                    LayoutDirection: =LayoutDirection.Vertical
+                    LayoutMinHeight: =100
+                    LayoutMinWidth: =250
+                    LayoutMode: =LayoutMode.Auto
+                    ZIndex: =1
+
+                "'Footer container' As groupContainer.horizontalAutoLayoutContainer":
+                    AlignInContainer: =AlignInContainer.SetByContainer
                     LayoutMinHeight: =100
                     LayoutMinWidth: =250
                     LayoutMode: =LayoutMode.Auto

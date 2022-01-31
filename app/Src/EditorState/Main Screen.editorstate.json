@@ -1496,7 +1496,14 @@
         "IsLockable": false,
         "NameMapSourceSchema": "?"
       },
-      "MenuBgColor",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "RGBA(109, 49, 162, 1)",
+        "InvariantPropertyName": "MenuBgColor",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
       {
         "AFDDataSourceName": "",
         "AutoRuleBindingEnabled": false,
@@ -1727,7 +1734,14 @@
     ],
     "DynamicProperties": [
       {
-        "ControlPropertyState": "FillPortions",
+        "ControlPropertyState": {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "FillPortions",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "Property": {
           "Category": "Design",
           "PropertyName": "FillPortions",

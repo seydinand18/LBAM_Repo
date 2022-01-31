@@ -35,6 +35,7 @@
 
             "'Menu container' As groupContainer.verticalAutoLayoutContainer":
                 AlignInContainer: =AlignInContainer.SetByContainer
+                FillPortions: =0
                 Height: =Parent.Height
                 LayoutDirection: =LayoutDirection.Vertical
                 LayoutMinHeight: =100
@@ -45,9 +46,10 @@
 
                 "'Menu component' As 'Atos SN Menu Component'":
                     Fill: ='Menu component'.MenuBgColor
-                    Height: =Max(App.Height,App.DesignHeight)- 'Menu component'.HeaderHeight
+                    Height: =Parent.Height
                     LayoutMinHeight: =640
                     LayoutMinWidth: =640
+                    MenuBgColor: =ColorFade(colorTheme, -40%)
                     OnReset: =Set(ExpandMenu, 'Menu component'.InExpandMenu)
                     Width: ='Menu component'.MenuWidth
 

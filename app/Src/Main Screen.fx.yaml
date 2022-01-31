@@ -75,7 +75,7 @@
                     Image3 As image:
                         FillPortions: =1
                         Image: =workflows
-                        ImagePosition: =ImagePosition.Fill
+                        ImagePosition: =ImagePosition.Stretch
                         Width: =Parent.Width
                         ZIndex: =1
 

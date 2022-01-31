@@ -20,7 +20,8 @@
       "LayoutOverflowY",
       "LayoutWrap",
       "ZIndex",
-      "EnableChildFocus"
+      "EnableChildFocus",
+      "BorderThickness"
     ],
     "DynamicProperties": [
       {
@@ -80,6 +81,11 @@
     "ParentIndex": 1,
     "PersistMetaDataIDKey": false,
     "Properties": [
+      {
+        "Category": "Design",
+        "PropertyName": "BorderThickness",
+        "RuleProviderType": "Unknown"
+      },
       {
         "Category": "Design",
         "PropertyName": "BorderStyle",
@@ -195,7 +201,8 @@
       "LayoutOverflowY",
       "LayoutWrap",
       "ZIndex",
-      "EnableChildFocus"
+      "EnableChildFocus",
+      "BorderThickness"
     ],
     "DynamicProperties": [
       {
@@ -255,6 +262,11 @@
     "ParentIndex": 0,
     "PersistMetaDataIDKey": false,
     "Properties": [
+      {
+        "Category": "Design",
+        "PropertyName": "BorderThickness",
+        "RuleProviderType": "Unknown"
+      },
       {
         "Category": "Design",
         "PropertyName": "BorderStyle",

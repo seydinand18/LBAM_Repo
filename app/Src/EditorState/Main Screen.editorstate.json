@@ -522,8 +522,7 @@
       "LayoutOverflowY",
       "LayoutWrap",
       "ZIndex",
-      "EnableChildFocus",
-      "BorderThickness"
+      "EnableChildFocus"
     ],
     "DynamicProperties": [
       {
@@ -583,11 +582,6 @@
     "ParentIndex": 0,
     "PersistMetaDataIDKey": false,
     "Properties": [
-      {
-        "Category": "Design",
-        "PropertyName": "BorderThickness",
-        "RuleProviderType": "Unknown"
-      },
       {
         "Category": "Design",
         "PropertyName": "BorderStyle",

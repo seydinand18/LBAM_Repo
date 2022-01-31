@@ -1,127 +1,17 @@
 {
-  "ComponentIndexes": {
-    "Atos SN Footer Component": 3,
-    "Atos SN Header Component": 2,
-    "Atos SN Menu Component": 1
-  },
-  "ControlUniqueIds": {
-    "App": 1,
-    "Atos SN Footer Component": 23,
-    "Atos SN Header Component": 13,
-    "Atos SN Menu Component": 5,
-    "BackButton": 15,
-    "Button2": 10,
-    "Button3": 9,
-    "Container1": 24,
-    "Container2": 28,
-    "Container5": 31,
-    "Container7": 33,
-    "CopyrightLabel": 25,
-    "FullnameLabel": 20,
-    "FullnameLabel_1": 21,
-    "Gallery1": 7,
-    "galleryTemplate1": 8,
-    "HamburgerButton": 16,
-    "HeaderLabel": 14,
-    "Icon2": 12,
-    "Label3": 11,
-    "Main Screen": 3,
-    "MenuOpenerIcon": 6,
-    "ProfileDetailsGroup": 22,
-    "ProfileImage_maxi": 19,
-    "ProfileImage_mini": 17,
-    "Smile": 4,
-    "UserDetailsRectangle": 18,
-    "VersionLabel": 26
-  },
+  "ComponentIndexes": {},
+  "ControlUniqueIds": {},
   "FunctionParamsInvariantScripts": {},
-  "HeaderLastSavedDateTimeUTC": "01/31/2022 12:05:04",
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
   "LocalResourceRootPaths": {},
-  "OrderComponentMetadata": {
-    "98d0a41e25714789ac46880bf6b86a1d": 2,
-    "e2005084bbc84e44bca49f8168b200b8": 0,
-    "f4da995178a64a96ac1d04238a0b1351": 1
-  },
-  "OrderComponentTemplate": {
-    "98d0a41e25714789ac46880bf6b86a1d": 2,
-    "e2005084bbc84e44bca49f8168b200b8": 0,
-    "f4da995178a64a96ac1d04238a0b1351": 1
-  },
-  "OrderDataSource": {
-    "CustomGallerySample": 0
-  },
-  "OrderGroupControls": {
-    "ProfileDetailsGroup": {
-      "FullnameLabel": 1,
-      "FullnameLabel_1": 2,
-      "ProfileImage_maxi": 0,
-      "UserDetailsRectangle": 3
-    }
-  },
+  "OrderComponentMetadata": {},
+  "OrderComponentTemplate": {},
+  "OrderDataSource": {},
+  "OrderGroupControls": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {
-    "button": 3,
-    "gallery": 2,
-    "groupContainer": 0,
-    "icon": 1,
-    "image": 5,
-    "label": 4,
-    "rectangle": 6
-  },
-  "PublishOrderIndices": {
-    "App": 0,
-    "Atos SN Footer Component": 0,
-    "Atos SN Header Component": 0,
-    "Atos SN Menu Component": 0,
-    "BackButton": 12,
-    "Button2": 8,
-    "Button3": 7,
-    "Container1": 20,
-    "Container2": 0,
-    "Container5": 1,
-    "Container7": 2,
-    "CopyrightLabel": 21,
-    "FullnameLabel": 18,
-    "FullnameLabel_1": 19,
-    "Gallery1": 5,
-    "galleryTemplate1": 6,
-    "HamburgerButton": 13,
-    "HeaderLabel": 11,
-    "Icon2": 10,
-    "Label3": 9,
-    "Main Screen": 2,
-    "MenuOpenerIcon": 4,
-    "ProfileDetailsGroup": 16,
-    "ProfileImage_maxi": 17,
-    "ProfileImage_mini": 14,
-    "Smile": 3,
-    "UserDetailsRectangle": 15,
-    "VersionLabel": 22
-  },
-  "ResourcesJsonIndices": {
-    "Image-SampleImage": 0
-  },
-  "TemplateVersions": {},
-  "VolatileProperties": {
-    "AnalysisLoadTime": 0.0143539,
-    "ControlCount": {
-      "98d0a41e25714789ac46880bf6b86a1d": 2,
-      "button": 2,
-      "e2005084bbc84e44bca49f8168b200b8": 1,
-      "f4da995178a64a96ac1d04238a0b1351": 1,
-      "gallery": 1,
-      "galleryTemplate": 1,
-      "group": 1,
-      "groupContainer": 1,
-      "icon": 5,
-      "image": 2,
-      "label": 6,
-      "rectangle": 1,
-      "screen": 1
-    },
-    "DeserializationLoadTime": 0.4704049,
-    "ErrorCount": 0
-  }
+  "OrderXMLTemplate": {},
+  "PublishOrderIndices": {},
+  "ResourcesJsonIndices": {},
+  "TemplateVersions": {}
 }

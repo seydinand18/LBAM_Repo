@@ -35,23 +35,24 @@
 
             "'Menu container' As groupContainer.verticalAutoLayoutContainer":
                 AlignInContainer: =AlignInContainer.SetByContainer
+                Height: =Parent.Height
                 LayoutDirection: =LayoutDirection.Vertical
                 LayoutMinHeight: =100
                 LayoutMinWidth: =250
                 LayoutMode: =LayoutMode.Auto
-                Width: ='Menu Component'.MenuWidth
+                Width: ='Menu component'.MenuWidth
                 ZIndex: =2
 
-                "'Menu Component' As 'Atos SN Menu Component'":
-                    Fill: ='Menu Component'.MenuBgColor
-                    Height: =Parent.Height
+                "'Menu component' As 'Atos SN Menu Component'":
+                    Fill: ='Menu component'.MenuBgColor
+                    Height: =Max(App.Height,App.DesignHeight)- 'Menu component'.HeaderHeight
                     LayoutMinHeight: =640
                     LayoutMinWidth: =640
-                    MenuBgColor: =ColorFade(colorTheme,-30%)
-                    OnReset: =Set(ExpandMenu, 'Menu Component'.InExpandMenu)
-                    Width: =Parent.Width
+                    OnReset: =Set(ExpandMenu, 'Menu component'.InExpandMenu)
+                    Width: ='Menu component'.MenuWidth
 
             "'No name container' As groupContainer.verticalAutoLayoutContainer":
+                FillPortions: =10
                 LayoutDirection: =LayoutDirection.Vertical
                 LayoutMinHeight: =100
                 LayoutMinWidth: =250
@@ -64,18 +65,23 @@
                     LayoutMinHeight: =100
                     LayoutMinWidth: =250
                     LayoutMode: =LayoutMode.Auto
+                    Width: =Parent.Width
                     ZIndex: =1
 
                 "'Footer container' As groupContainer.horizontalAutoLayoutContainer":
                     AlignInContainer: =AlignInContainer.SetByContainer
+                    FillPortions: =0
+                    Height: =50
                     LayoutMinHeight: =100
                     LayoutMinWidth: =250
                     LayoutMode: =LayoutMode.Auto
+                    Width: =Parent.Width
                     ZIndex: =2
 
                     "'Footer Component' As 'Atos SN Footer Component'":
                         Fill: ='Footer Component'.FooterFill
-                        Height: =Parent.Height
+                        Height: |
+                            =50
                         LayoutMinHeight: =640
                         LayoutMinWidth: =640
                         Width: =Parent.Width

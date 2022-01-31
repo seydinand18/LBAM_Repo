@@ -175,7 +175,14 @@
       "Fill",
       "X",
       "Y",
-      "Width",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "500",
+        "InvariantPropertyName": "Width",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
       "Height",
       "DisplayMode",
       "ChildTabPriority",
@@ -561,8 +568,22 @@
       "Fill",
       "X",
       "Y",
-      "Width",
-      "Height",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "500",
+        "InvariantPropertyName": "Width",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "",
+        "InvariantPropertyName": "Height",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
       "DisplayMode",
       "ChildTabPriority",
       "LayoutMode",
@@ -578,7 +599,14 @@
     ],
     "DynamicProperties": [
       {
-        "ControlPropertyState": "FillPortions",
+        "ControlPropertyState": {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "FillPortions",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "Property": {
           "Category": "Design",
           "PropertyName": "FillPortions",
@@ -1397,7 +1425,7 @@
     "StyleName": "defaultScreenStyle",
     "Type": "ControlInfo"
   },
-  "Menu Component": {
+  "Menu component": {
     "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       {
@@ -1468,14 +1496,7 @@
         "IsLockable": false,
         "NameMapSourceSchema": "?"
       },
-      {
-        "AFDDataSourceName": "",
-        "AutoRuleBindingEnabled": false,
-        "AutoRuleBindingString": "RGBA(109, 49, 162, 1)",
-        "InvariantPropertyName": "MenuBgColor",
-        "IsLockable": false,
-        "NameMapSourceSchema": "?"
-      },
+      "MenuBgColor",
       {
         "AFDDataSourceName": "",
         "AutoRuleBindingEnabled": false,
@@ -1569,7 +1590,7 @@
       "Description": ""
     },
     "MetaDataIDKey": "",
-    "Name": "Menu Component",
+    "Name": "Menu component",
     "ParentIndex": 0,
     "PersistMetaDataIDKey": false,
     "Properties": [
@@ -1625,7 +1646,7 @@
       },
       {
         "Category": "Design",
-        "PropertyName": "Width",
+        "PropertyName": "Fill",
         "RuleProviderType": "Unknown"
       },
       {
@@ -1635,7 +1656,7 @@
       },
       {
         "Category": "Design",
-        "PropertyName": "Fill",
+        "PropertyName": "Width",
         "RuleProviderType": "Unknown"
       },
       {
@@ -1675,8 +1696,22 @@
       "Fill",
       "X",
       "Y",
-      "Width",
-      "Height",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "'Menu Component'.MenuWidth",
+        "InvariantPropertyName": "Width",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "200",
+        "InvariantPropertyName": "Height",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
       "DisplayMode",
       "ChildTabPriority",
       "LayoutMode",
@@ -1860,7 +1895,14 @@
     ],
     "DynamicProperties": [
       {
-        "ControlPropertyState": "FillPortions",
+        "ControlPropertyState": {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "FillPortions",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "Property": {
           "Category": "Design",
           "PropertyName": "FillPortions",

@@ -1,11 +1,2 @@
 "'Main Screen' As screen":
 
-    Smile As icon.ArrowDown:
-        Color: =RGBA(99, 139, 44, 1)
-        Height: =160
-        Icon: =Icon.EmojiSmile
-        Width: =178
-        X: =1083
-        Y: =549
-        ZIndex: =1
-

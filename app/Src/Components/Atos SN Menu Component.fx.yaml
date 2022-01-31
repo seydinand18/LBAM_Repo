@@ -1,0 +1,156 @@
+"'Atos SN Menu Component' As CanvasComponent":
+    Fill: ='Atos SN Menu Component'.MenuBgColor
+    HeaderHeight: =0
+    Height: =Max(App.Height,App.DesignHeight)- 'Atos SN Menu Component'.HeaderHeight
+    InExpandMenu: =true
+    MenuBgColor: =RGBA(109, 49, 162, 1)
+    MenuIconsColor: =RGBA(255, 255, 255, 1)
+    MenuItems: |-
+        =Table(
+                {
+                    MeniLabelText: "Home",
+                    MeniIcon: Icon.Home,
+                    MenuTargetScreen: App.ActiveScreen,
+                    IsMenuItemActive: false,
+                    IsMenuItemVisible: true
+                },
+                {
+                    MeniLabelText: "Administration",
+                    MeniIcon: Icon.DetailList,
+                    MenuTargetScreen: App.ActiveScreen,
+                    IsMenuItemActive: true,
+                    IsMenuItemVisible: false
+                },
+                {
+                    MeniLabelText: "Settings",
+                    MeniIcon: Icon.Settings,
+                    MenuTargetScreen: App.ActiveScreen,
+                    IsMenuItemActive: false,
+                    IsMenuItemVisible: true
+                },
+                {
+                    MeniLabelText: "Habilitations",
+                    MeniIcon: Icon.People,
+                    MenuTargetScreen: App.ActiveScreen,
+                    IsMenuItemActive: false,
+                    IsMenuItemVisible: true
+                }
+            )
+    MenuLabelColor: =RGBA(255, 255, 255, 1)
+    MenuSelectedBgColor: =RGBA(255, 255, 255, 1)
+    MenuWidth: |-
+        =If(
+            ExpandMenu,
+            If(
+                App.ActiveScreen.Size = 1,
+                App.Width / 2,
+                App.Width / 4
+                
+            ),
+            If(
+                 App.ActiveScreen.Size = 1,
+                0,
+                50
+                
+            )
+        )
+    OnReset: =Set(ExpandMenu, 'Atos SN Menu Component'.InExpandMenu)
+    OnToggleMenu: =true
+    OutExpandMenu: =ExpandMenu
+    SelectedMenuBtnColor: =Purple
+    Width: ='Atos SN Menu Component'.MenuWidth
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    MenuOpenerIcon As icon.Add:
+        Color: ='Atos SN Menu Component'.MenuIconsColor
+        Height: =30
+        Icon: =Icon.Waffle
+        OnSelect: =Set(ExpandMenu,!ExpandMenu);'Atos SN Menu Component'.OnToggleMenu()
+        PaddingBottom: =5
+        PaddingLeft: =5
+        PaddingRight: =5
+        PaddingTop: =5
+        Visible: =App.ActiveScreen.Size<>Small
+        Width: =30
+        X: =15
+        ZIndex: =1
+
+    Gallery1 As gallery.variableTemplateHeightGallery:
+        Height: =Parent.Height-MenuOpenerIcon.Height
+        Items: |+
+            =Filter('Atos SN Menu Component'.MenuItems,IsMenuItemVisible=true)
+            
+        Layout: =Layout.Vertical
+        OnSelect: =Navigate(ThisItem.MenuTargetScreen)
+        ShowScrollbar: =false
+        TemplateFill: =If(ThisItem.IsMenuItemActive,'Atos SN Menu Component'.MenuSelectedBgColor, RGBA(0, 0, 0, 0))
+        TemplatePadding: =0
+        TemplateSize: =40
+        Width: =273
+        Y: |-
+            =
+            If(App.ActiveScreen.Size=Small,0,MenuOpenerIcon.Height+5)
+        ZIndex: =2
+
+        Label3 As label:
+            Color: =If(ThisItem.IsMenuItemActive, 'Atos SN Menu Component'.SelectedMenuBtnColor, 'Atos SN Menu Component'.MenuIconsColor)
+            Height: =30
+            OnSelect: =Select(Parent)
+            Size: =11
+            Text: =ThisItem.MeniLabelText
+            Visible: =ExpandMenu
+            Width: =207
+            X: =60
+            Y: =5
+            ZIndex: =1
+
+        Button2 As button:
+            BorderColor: =Self.Fill
+            Fill: ='Atos SN Menu Component'.SelectedMenuBtnColor
+            FocusedBorderThickness: =Self.BorderThickness
+            Height: =30
+            HoverBorderColor: =Self.Fill
+            HoverColor: =Self.Fill
+            HoverFill: =Self.Fill
+            OnSelect: =Select(Parent)
+            PaddingBottom: =20
+            PressedFill: =Self.Fill
+            Text: =""
+            Visible: =ThisItem.IsMenuItemActive
+            Width: =3
+            X: =5
+            Y: =5
+            ZIndex: =2
+
+        Icon2 As icon.Add:
+            Color: =If(ThisItem.IsMenuItemActive, 'Atos SN Menu Component'.SelectedMenuBtnColor, 'Atos SN Menu Component'.MenuIconsColor)
+            Height: =20
+            Icon: =ThisItem.MeniIcon
+            OnSelect: =Select(Parent)
+            Width: =20
+            X: =20
+            Y: =10
+            ZIndex: =3
+
+        Button3 As button:
+            BorderColor: =Self.Fill
+            BorderThickness: =0
+            Color: =Self.Fill
+            DisabledBorderColor: =Self.Fill
+            DisabledColor: =Self.Fill
+            DisabledFill: =Self.Fill
+            Fill: =Transparent
+            FocusedBorderColor: =Self.Fill
+            FocusedBorderThickness: =0
+            Height: =Parent.TemplateHeight
+            HoverBorderColor: =Self.Fill
+            HoverColor: =Self.Fill
+            HoverFill: =Self.Fill
+            OnSelect: =Select(Parent)
+            PressedFill: =Self.Fill
+            Text: =""
+            Width: =Parent.TemplateWidth
+            ZIndex: =4
+

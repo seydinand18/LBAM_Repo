@@ -1,0 +1,147 @@
+{
+  "ComponentAllowCustomization": true,
+  "ComponentChangedSinceFileImport": true,
+  "ComponentManifest": {
+    "AllowAccessToGlobals": false,
+    "AllowCustomization": true,
+    "Description": "",
+    "Name": "Atos SN Header Component",
+    "TemplateGuid": "f4da995178a64a96ac1d04238a0b1351"
+  },
+  "ComponentType": "CanvasComponent",
+  "CustomGroupControlTemplateName": "",
+  "CustomProperties": [
+    {
+      "Category": 0,
+      "DisplayName": "Header Title",
+      "Hidden": false,
+      "Name": "HeaderTitle",
+      "PropertyDataTypeKey": "String",
+      "Tooltip": "A custom property",
+      "Type": "{\"Version\":\"1.321\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "Header Font",
+      "Hidden": false,
+      "Name": "HeaderFont",
+      "PropertyDataTypeKey": "String",
+      "Tooltip": "A custom property",
+      "Type": "{\"Version\":\"1.321\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "Header Color",
+      "Hidden": false,
+      "Name": "HeaderColor",
+      "PropertyDataTypeKey": "Color",
+      "Tooltip": "A custom property",
+      "Type": "{\"Version\":\"1.321\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "Header Fill",
+      "Hidden": false,
+      "Name": "HeaderFill",
+      "PropertyDataTypeKey": "Color",
+      "Tooltip": "A custom property",
+      "Type": "{\"Version\":\"1.321\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "Header Height",
+      "Hidden": false,
+      "Name": "HeaderHeight",
+      "PropertyDataTypeKey": "Number",
+      "Tooltip": "A custom property",
+      "Type": "{\"Version\":\"1.321\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "Header Font Size",
+      "Hidden": false,
+      "Name": "HeaderFontSize",
+      "PropertyDataTypeKey": "Number",
+      "Tooltip": "A custom property",
+      "Type": "{\"Version\":\"1.321\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "Profile Image",
+      "Hidden": false,
+      "Name": "ProfileImage",
+      "PropertyDataTypeKey": "Image",
+      "Tooltip": "A custom property",
+      "Type": "{\"Version\":\"1.321\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Image\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "User Details Fill",
+      "Hidden": false,
+      "Name": "UserDetailsFill",
+      "PropertyDataTypeKey": "Color",
+      "Tooltip": "A custom property",
+      "Type": "{\"Version\":\"1.321\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "ShowDetailsHeight",
+      "Hidden": true,
+      "Name": "ShowDetailsHeight",
+      "PropertyDataTypeKey": "Number",
+      "Tooltip": "A custom property",
+      "Type": "{\"Version\":\"1.321\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "Is BackBtn Visible",
+      "Hidden": false,
+      "Name": "IsBackBtnVisible",
+      "PropertyDataTypeKey": "Boolean",
+      "Tooltip": "A custom property",
+      "Type": "{\"Version\":\"1.321\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"_MinPrimitive\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 2,
+      "DisplayName": "On BackBtn Clicked",
+      "Hidden": false,
+      "Name": "OnBackBtnClicked",
+      "PropertyDataTypeKey": "Boolean",
+      "Tooltip": "A custom property",
+      "Type": "{\"Version\":\"1.321\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"_MinPrimitive\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 2,
+      "DisplayName": "On Toggle Menu Size One",
+      "Hidden": false,
+      "Name": "OnToggleMenuSizeOne",
+      "PropertyDataTypeKey": "Boolean",
+      "Tooltip": "A custom property",
+      "Type": "{\"Version\":\"1.321\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"_MinPrimitive\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "Is HamburgerBtn Visible",
+      "Hidden": false,
+      "Name": "IsHamburgerBtnVisible",
+      "PropertyDataTypeKey": "Boolean",
+      "Tooltip": "A custom property",
+      "Type": "{\"Version\":\"1.321\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"_MinPrimitive\",\"EnumString\":\"\",\"Type\":[]}}"
+    }
+  ],
+  "FirstParty": true,
+  "Id": "http://microsoft.com/appmagic/Component",
+  "IsComponentLocked": true,
+  "IsComponentTemplate": true,
+  "IsCustomGroupControlTemplate": false,
+  "IsPcfControl": false,
+  "IsPremiumPcfControl": false,
+  "IsWidgetTemplate": false,
+  "LastModifiedTimestamp": "637792267878470625",
+  "Name": "f4da995178a64a96ac1d04238a0b1351",
+  "OverridableProperties": {},
+  "SourceLibraryId": "0986383f-e43a-494b-8a92-71da0e30b75c",
+  "SourceLibraryLogicalName": "lbam_atossncomponentlibrary_5697e",
+  "TemplateOriginalName": "d14e79312ed441b082d45d4405081442",
+  "Version": "637745606600852620"
+}

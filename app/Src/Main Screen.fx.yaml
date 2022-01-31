@@ -82,7 +82,7 @@
                 "'Footer container' As groupContainer.horizontalAutoLayoutContainer":
                     AlignInContainer: =AlignInContainer.SetByContainer
                     FillPortions: =0
-                    Height: =50
+                    Height: =25
                     LayoutMinHeight: =100
                     LayoutMinWidth: =250
                     LayoutMode: =LayoutMode.Auto
@@ -91,8 +91,9 @@
 
                     "'Footer Component' As 'Atos SN Footer Component'":
                         Fill: ='Footer Component'.FooterFill
-                        Height: |
-                            =50
+                        FooterFontSize: =7
+                        FooterHeight: =Parent.Height
+                        Height: ='Footer Component'.FooterHeight
                         LayoutMinHeight: =640
                         LayoutMinWidth: =640
                         Width: =Parent.Width

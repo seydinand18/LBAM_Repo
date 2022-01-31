@@ -415,7 +415,7 @@
       {
         "AFDDataSourceName": "",
         "AutoRuleBindingEnabled": false,
-        "AutoRuleBindingString": "100",
+        "AutoRuleBindingString": "",
         "InvariantPropertyName": "FooterFontSize",
         "IsLockable": false,
         "NameMapSourceSchema": "?"

@@ -30,6 +30,7 @@
             ZIndex: =2
 
         "'Footer container' As groupContainer.horizontalAutoLayoutContainer":
+            BorderThickness: =1
             LayoutMinHeight: =100
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto

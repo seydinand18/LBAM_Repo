@@ -20,7 +20,8 @@
       "LayoutOverflowY",
       "LayoutWrap",
       "ZIndex",
-      "EnableChildFocus"
+      "EnableChildFocus",
+      "BorderThickness"
     ],
     "DynamicProperties": [
       {
@@ -77,9 +78,14 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "Body container",
-    "ParentIndex": 1,
+    "ParentIndex": 2,
     "PersistMetaDataIDKey": false,
     "Properties": [
+      {
+        "Category": "Design",
+        "PropertyName": "BorderThickness",
+        "RuleProviderType": "Unknown"
+      },
       {
         "Category": "Design",
         "PropertyName": "BorderStyle",
@@ -194,7 +200,15 @@
       "LayoutOverflowX",
       "LayoutOverflowY",
       "LayoutWrap",
-      "ZIndex"
+      "ZIndex",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "",
+        "InvariantPropertyName": "BorderThickness",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      }
     ],
     "DynamicProperties": [
       {
@@ -244,7 +258,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "Footer container",
-    "ParentIndex": 0,
+    "ParentIndex": 1,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
@@ -336,6 +350,11 @@
         "Category": "Design",
         "PropertyName": "DisplayMode",
         "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "BorderThickness",
+        "RuleProviderType": "Unknown"
       }
     ],
     "StyleName": "",
@@ -362,7 +381,8 @@
       "LayoutOverflowY",
       "LayoutWrap",
       "ZIndex",
-      "EnableChildFocus"
+      "EnableChildFocus",
+      "BorderThickness"
     ],
     "DynamicProperties": [
       {
@@ -422,6 +442,11 @@
     "ParentIndex": 0,
     "PersistMetaDataIDKey": false,
     "Properties": [
+      {
+        "Category": "Design",
+        "PropertyName": "BorderThickness",
+        "RuleProviderType": "Unknown"
+      },
       {
         "Category": "Design",
         "PropertyName": "BorderStyle",

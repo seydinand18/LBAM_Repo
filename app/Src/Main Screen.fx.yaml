@@ -2,10 +2,10 @@
 
     Smile As icon.ArrowDown:
         Color: =RGBA(99, 139, 44, 1)
-        Height: =132
+        Height: =52
         Icon: =Icon.EmojiSmile
-        Width: =160
-        X: =561
-        Y: =243
+        Width: =72
+        X: =45
+        Y: =48
         ZIndex: =1
 

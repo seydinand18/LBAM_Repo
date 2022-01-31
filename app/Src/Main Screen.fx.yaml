@@ -76,7 +76,6 @@
                     Image3 As image:
                         FillPortions: =1
                         Image: =workflows
-                        ImagePosition: =If('Main Screen'.Width<780,ImagePosition.Fill,Stretch)
                         Width: =Parent.Width
                         ZIndex: =1
 

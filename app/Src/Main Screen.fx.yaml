@@ -10,6 +10,7 @@
 
         "'Header container' As groupContainer.horizontalAutoLayoutContainer":
             AlignInContainer: =AlignInContainer.SetByContainer
+            BorderThickness: =1
             FillPortions: =0
             LayoutMinHeight: =100
             LayoutMinWidth: =250
@@ -18,6 +19,7 @@
 
         "'Body container' As groupContainer.verticalAutoLayoutContainer":
             AlignInContainer: =AlignInContainer.SetByContainer
+            BorderThickness: =1
             FillPortions: =0
             LayoutDirection: =LayoutDirection.Vertical
             LayoutMinHeight: =100

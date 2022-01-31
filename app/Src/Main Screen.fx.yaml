@@ -11,8 +11,9 @@
         "'Header container' As groupContainer.horizontalAutoLayoutContainer":
             AlignInContainer: =AlignInContainer.SetByContainer
             BorderThickness: =1
+            FillPortions: =0
             Height: =50
-            LayoutMinHeight: =40
+            LayoutMinHeight: =100
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
             Width: =Parent.Width
@@ -27,7 +28,6 @@
                 ShowDetailsHeight: ='Header Component'.HeaderHeight
 
         "'Body container' As groupContainer.horizontalAutoLayoutContainer":
-            FillPortions: =14
             LayoutMinHeight: =100
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
@@ -35,8 +35,6 @@
 
             "'Menu container' As groupContainer.verticalAutoLayoutContainer":
                 AlignInContainer: =AlignInContainer.SetByContainer
-                FillPortions: =0
-                Height: =Parent.Height
                 LayoutDirection: =LayoutDirection.Vertical
                 LayoutMinHeight: =100
                 LayoutMinWidth: =250
@@ -54,7 +52,6 @@
                     Width: =Parent.Width
 
             "'No name container' As groupContainer.verticalAutoLayoutContainer":
-                FillPortions: =4
                 LayoutDirection: =LayoutDirection.Vertical
                 LayoutMinHeight: =100
                 LayoutMinWidth: =250
@@ -63,21 +60,17 @@
 
                 "'Content container' As groupContainer.verticalAutoLayoutContainer":
                     AlignInContainer: =AlignInContainer.SetByContainer
-                    FillPortions: =14
                     LayoutDirection: =LayoutDirection.Vertical
                     LayoutMinHeight: =100
                     LayoutMinWidth: =250
                     LayoutMode: =LayoutMode.Auto
-                    Width: =Parent.Width
                     ZIndex: =1
 
                 "'Footer container' As groupContainer.horizontalAutoLayoutContainer":
                     AlignInContainer: =AlignInContainer.SetByContainer
-                    Height: =50
-                    LayoutMinHeight: =40
+                    LayoutMinHeight: =100
                     LayoutMinWidth: =250
                     LayoutMode: =LayoutMode.Auto
-                    Width: =Parent.Width
                     ZIndex: =2
 
                     "'Footer Component' As 'Atos SN Footer Component'":

@@ -1040,7 +1040,14 @@
       "LayoutWrap",
       "ZIndex",
       "EnableChildFocus",
-      "BorderThickness"
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "",
+        "InvariantPropertyName": "BorderThickness",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      }
     ],
     "DynamicProperties": [
       {

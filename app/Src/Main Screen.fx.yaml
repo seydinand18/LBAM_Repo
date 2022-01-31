@@ -25,26 +25,12 @@
             LayoutMode: =LayoutMode.Auto
             ZIndex: =2
 
-            Container5 As groupContainer.verticalAutoLayoutContainer:
-                LayoutDirection: =LayoutDirection.Vertical
-                LayoutMinHeight: =100
-                LayoutMinWidth: =250
-                LayoutMode: =LayoutMode.Auto
-                ZIndex: =1
-
             Container6 As groupContainer.verticalAutoLayoutContainer:
                 LayoutDirection: =LayoutDirection.Vertical
                 LayoutMinHeight: =100
                 LayoutMinWidth: =250
                 LayoutMode: =LayoutMode.Auto
                 ZIndex: =2
-
-                Container7 As groupContainer.verticalAutoLayoutContainer:
-                    LayoutDirection: =LayoutDirection.Vertical
-                    LayoutMinHeight: =100
-                    LayoutMinWidth: =250
-                    LayoutMode: =LayoutMode.Auto
-                    ZIndex: =1
 
                 Container10 As groupContainer.horizontalAutoLayoutContainer:
                     FillPortions: =0

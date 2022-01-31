@@ -18,13 +18,13 @@
             Width: =Parent.Width
             ZIndex: =1
 
-            "'Atos SN Header Component_1' As 'Atos SN Header Component'":
+            "'Header Component' As 'Atos SN Header Component'":
                 HeaderFill: =colorTheme
                 HeaderHeight: =Parent.Height
-                Height: ='Atos SN Header Component_1'.ShowDetailsHeight
+                Height: ='Header Component'.ShowDetailsHeight
                 LayoutMinHeight: =640
                 LayoutMinWidth: =640
-                ShowDetailsHeight: ='Atos SN Header Component_1'.HeaderHeight
+                ShowDetailsHeight: ='Header Component'.HeaderHeight
 
         "'Body container' As groupContainer.horizontalAutoLayoutContainer":
             FillPortions: =14
@@ -41,16 +41,16 @@
                 LayoutMinHeight: =100
                 LayoutMinWidth: =250
                 LayoutMode: =LayoutMode.Auto
-                Width: ='Atos SN Menu Component_1'.MenuWidth
+                Width: ='Menu Component'.MenuWidth
                 ZIndex: =2
 
-                "'Atos SN Menu Component_1' As 'Atos SN Menu Component'":
-                    Fill: ='Atos SN Menu Component_1'.MenuBgColor
+                "'Menu Component' As 'Atos SN Menu Component'":
+                    Fill: ='Menu Component'.MenuBgColor
                     Height: =Parent.Height
                     LayoutMinHeight: =640
                     LayoutMinWidth: =640
                     MenuBgColor: =ColorFade(colorTheme,-30%)
-                    OnReset: =Set(ExpandMenu, 'Atos SN Menu Component_1'.InExpandMenu)
+                    OnReset: =Set(ExpandMenu, 'Menu Component'.InExpandMenu)
                     Width: =Parent.Width
 
             "'No name container' As groupContainer.verticalAutoLayoutContainer":
@@ -80,8 +80,8 @@
                     Width: =Parent.Width
                     ZIndex: =2
 
-                    "'Atos SN Footer Component_1' As 'Atos SN Footer Component'":
-                        Fill: ='Atos SN Footer Component_1'.FooterFill
+                    "'Footer Component' As 'Atos SN Footer Component'":
+                        Fill: ='Footer Component'.FooterFill
                         Height: =Parent.Height
                         LayoutMinHeight: =640
                         LayoutMinWidth: =640

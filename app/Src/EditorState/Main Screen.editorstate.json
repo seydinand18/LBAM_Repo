@@ -550,7 +550,14 @@
         "IsLockable": false,
         "NameMapSourceSchema": "?"
       },
-      "MenuBgColor",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "RGBA(109, 49, 162, 1)",
+        "InvariantPropertyName": "MenuBgColor",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
       {
         "AFDDataSourceName": "",
         "AutoRuleBindingEnabled": false,
@@ -656,7 +663,7 @@
       {
         "Category": "Data",
         "PropertyName": "MenuBgColor",
-        "RuleProviderType": "System"
+        "RuleProviderType": "Unknown"
       },
       {
         "Category": "Data",

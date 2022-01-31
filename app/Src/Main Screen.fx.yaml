@@ -27,6 +27,7 @@
 
             "'Menu container' As groupContainer.verticalAutoLayoutContainer":
                 AlignInContainer: =AlignInContainer.SetByContainer
+                Height: =Parent.Height
                 LayoutDirection: =LayoutDirection.Vertical
                 LayoutMinHeight: =100
                 LayoutMinWidth: =250
@@ -34,6 +35,7 @@
                 ZIndex: =2
 
             "'No name container' As groupContainer.verticalAutoLayoutContainer":
+                FillPortions: =4
                 LayoutDirection: =LayoutDirection.Vertical
                 LayoutMinHeight: =100
                 LayoutMinWidth: =250
@@ -46,6 +48,7 @@
                     LayoutMinHeight: =100
                     LayoutMinWidth: =250
                     LayoutMode: =LayoutMode.Auto
+                    Width: =Parent.Width
                     ZIndex: =1
 
                 "'Footer container' As groupContainer.horizontalAutoLayoutContainer":
@@ -53,5 +56,6 @@
                     LayoutMinHeight: =100
                     LayoutMinWidth: =250
                     LayoutMode: =LayoutMode.Auto
+                    Width: =Parent.Width
                     ZIndex: =2
 

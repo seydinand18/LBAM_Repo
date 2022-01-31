@@ -14,6 +14,7 @@
             LayoutMinHeight: =100
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
+            Width: =Parent.Width
             ZIndex: =1
 
         "'Body container' As groupContainer.verticalAutoLayoutContainer":
@@ -23,5 +24,12 @@
             LayoutMinHeight: =100
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
+            Width: =Parent.Width
             ZIndex: =2
+
+        "'Footer container' As groupContainer.horizontalAutoLayoutContainer":
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            ZIndex: =3
 

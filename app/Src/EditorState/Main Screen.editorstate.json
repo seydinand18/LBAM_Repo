@@ -20,15 +20,7 @@
       "LayoutOverflowY",
       "LayoutWrap",
       "ZIndex",
-      "EnableChildFocus",
-      {
-        "AFDDataSourceName": "",
-        "AutoRuleBindingEnabled": false,
-        "AutoRuleBindingString": "",
-        "InvariantPropertyName": "BorderThickness",
-        "IsLockable": false,
-        "NameMapSourceSchema": "?"
-      }
+      "EnableChildFocus"
     ],
     "DynamicProperties": [
       {
@@ -177,11 +169,6 @@
         "Category": "Design",
         "PropertyName": "LayoutGap",
         "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "BorderThickness",
-        "RuleProviderType": "Unknown"
       }
     ],
     "StyleName": "",
@@ -208,15 +195,7 @@
       "LayoutOverflowY",
       "LayoutWrap",
       "ZIndex",
-      "EnableChildFocus",
-      {
-        "AFDDataSourceName": "",
-        "AutoRuleBindingEnabled": false,
-        "AutoRuleBindingString": "",
-        "InvariantPropertyName": "BorderThickness",
-        "IsLockable": false,
-        "NameMapSourceSchema": "?"
-      }
+      "EnableChildFocus"
     ],
     "DynamicProperties": [
       {
@@ -364,11 +343,6 @@
       {
         "Category": "Design",
         "PropertyName": "LayoutGap",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "BorderThickness",
         "RuleProviderType": "Unknown"
       }
     ],

@@ -7,54 +7,58 @@
   },
   "ControlUniqueIds": {
     "App": 1,
-    "Atos SN Footer Component": 11,
-    "Atos SN Header Component": 15,
-    "Atos SN Menu Component": 3,
-    "BackButton": 17,
+    "Atos SN Footer Component": 3,
+    "Atos SN Header Component": 7,
+    "Atos SN Menu Component": 17,
+    "BackButton": 9,
     "Body container": 29,
-    "Button2": 8,
-    "Button3": 7,
-    "Container1": 12,
+    "Button2": 22,
+    "Button3": 21,
+    "Container1": 4,
     "Content container": 33,
-    "CopyrightLabel": 13,
+    "CopyrightLabel": 5,
     "Footer Component": 35,
     "Footer container": 34,
-    "FullnameLabel": 22,
-    "FullnameLabel_1": 23,
-    "Gallery1": 5,
-    "galleryTemplate1": 6,
-    "HamburgerButton": 18,
+    "FullnameLabel": 14,
+    "FullnameLabel_1": 15,
+    "Gallery1": 19,
+    "galleryTemplate1": 20,
+    "HamburgerButton": 10,
     "Header component": 28,
     "Header container": 27,
-    "HeaderLabel": 16,
-    "Icon2": 10,
-    "Label3": 9,
+    "HeaderLabel": 8,
+    "Icon2": 24,
+    "Label3": 23,
     "Main container": 26,
     "Main Screen": 25,
-    "Menu component": 36,
+    "Menu component": 31,
     "Menu container": 30,
-    "MenuOpenerIcon": 4,
+    "MenuOpenerIcon": 18,
     "No name container": 32,
-    "ProfileDetailsGroup": 24,
-    "ProfileImage_maxi": 21,
-    "ProfileImage_mini": 19,
-    "UserDetailsRectangle": 20,
-    "VersionLabel": 14
+    "ProfileDetailsGroup": 16,
+    "ProfileImage_maxi": 13,
+    "ProfileImage_mini": 11,
+    "UserDetailsRectangle": 12,
+    "VersionLabel": 6
   },
   "FunctionParamsInvariantScripts": {},
-  "HeaderLastSavedDateTimeUTC": "01/31/2022 15:02:20",
+  "HeaderLastSavedDateTimeUTC": "01/31/2022 17:01:30",
   "LocalDatabaseReferencesAsEmpty": false,
-  "LocalResourceFileNames": {},
-  "LocalResourceRootPaths": {},
+  "LocalResourceFileNames": {
+    "workflows": "7a00647a-ffe5-448c-9bcc-7afc709521b9.png"
+  },
+  "LocalResourceRootPaths": {
+    "workflows": "https://docserverpwaprodeus.blob.core.windows.net/b744b757-9a36-4107-b3dd-b51ce988a4ef-1/resource/a55ef2ac-b4df-44e8-8d79-4863b8c8da87.png?sv=2017-04-17&sr=b&sig=V2SmfKb52t%2Fv6EmoQaq67K0gEyKNd3rGXN%2BtPbmaxcQ%3D&spr=https&se=2022-02-01T17%3A14%3A08Z&sp=r"
+  },
   "OrderComponentMetadata": {
-    "98d0a41e25714789ac46880bf6b86a1d": 1,
-    "e2005084bbc84e44bca49f8168b200b8": 0,
-    "f4da995178a64a96ac1d04238a0b1351": 2
+    "98d0a41e25714789ac46880bf6b86a1d": 0,
+    "e2005084bbc84e44bca49f8168b200b8": 2,
+    "f4da995178a64a96ac1d04238a0b1351": 1
   },
   "OrderComponentTemplate": {
-    "98d0a41e25714789ac46880bf6b86a1d": 1,
-    "e2005084bbc84e44bca49f8168b200b8": 0,
-    "f4da995178a64a96ac1d04238a0b1351": 2
+    "98d0a41e25714789ac46880bf6b86a1d": 0,
+    "e2005084bbc84e44bca49f8168b200b8": 2,
+    "f4da995178a64a96ac1d04238a0b1351": 1
   },
   "OrderDataSource": {
     "CustomGallerySample": 0
@@ -107,22 +111,23 @@
     "Menu container": 4,
     "MenuOpenerIcon": 19,
     "No name container": 6,
-    "ProfileDetailsGroup": 15,
+    "ProfileDetailsGroup": 14,
     "ProfileImage_maxi": 16,
     "ProfileImage_mini": 13,
-    "UserDetailsRectangle": 14,
+    "UserDetailsRectangle": 15,
     "VersionLabel": 28
   },
   "ResourcesJsonIndices": {
-    "Image-SampleImage": 0
+    "Image-SampleImage": 0,
+    "Image-workflows": 1
   },
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.3499246,
+    "AnalysisLoadTime": 0.3307233,
     "ControlCount": {
       "98d0a41e25714789ac46880bf6b86a1d": 2,
       "button": 2,
-      "e2005084bbc84e44bca49f8168b200b8": 3,
+      "e2005084bbc84e44bca49f8168b200b8": 2,
       "f4da995178a64a96ac1d04238a0b1351": 2,
       "gallery": 1,
       "galleryTemplate": 1,
@@ -134,7 +139,7 @@
       "rectangle": 1,
       "screen": 1
     },
-    "DeserializationLoadTime": 3.1949786,
+    "DeserializationLoadTime": 1.8394014,
     "ErrorCount": 0
   }
 }

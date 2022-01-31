@@ -1,4 +1,6 @@
 "'Main Screen' As screen":
+    BackgroundImage: =workflows
+    ImagePosition: =ImagePosition.Fill
 
     "'Main container' As groupContainer.horizontalAutoLayoutContainer":
         Height: =Parent.Height

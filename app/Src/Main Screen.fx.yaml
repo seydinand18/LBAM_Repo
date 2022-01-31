@@ -2,8 +2,10 @@
 
     Icon1 As icon.ArrowDown:
         Color: =RGBA(99, 139, 44, 1)
+        Height: =188
         Icon: =Icon.EmojiSmile
-        X: =657
-        Y: =312
+        Width: =392
+        X: =510
+        Y: =303
         ZIndex: =1
 

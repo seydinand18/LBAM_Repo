@@ -23,20 +23,6 @@
     "Name": "groupContainer",
     "Version": "1.0"
   },
-  "icon": {
-    "CustomGroupControlTemplateName": "",
-    "FirstParty": true,
-    "Id": "http://microsoft.com/appmagic/icon",
-    "IsComponentTemplate": false,
-    "IsCustomGroupControlTemplate": false,
-    "IsPcfControl": false,
-    "IsPremiumPcfControl": false,
-    "IsWidgetTemplate": true,
-    "LastModifiedTimestamp": "0",
-    "Name": "icon",
-    "OverridableProperties": {},
-    "Version": "2.4.0"
-  },
   "screen": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,

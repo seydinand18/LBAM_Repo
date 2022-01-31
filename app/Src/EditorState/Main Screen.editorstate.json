@@ -749,7 +749,7 @@
     "StyleName": "",
     "Type": "ControlInfo"
   },
-  "Header Component": {
+  "Header component": {
     "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       "Fill",
@@ -775,7 +775,7 @@
       {
         "AFDDataSourceName": "",
         "AutoRuleBindingEnabled": false,
-        "AutoRuleBindingString": "\"Text\"",
+        "AutoRuleBindingString": "",
         "InvariantPropertyName": "HeaderTitle",
         "IsLockable": false,
         "NameMapSourceSchema": "?"
@@ -908,7 +908,7 @@
       "Description": ""
     },
     "MetaDataIDKey": "",
-    "Name": "Header Component",
+    "Name": "Header component",
     "ParentIndex": 0,
     "PersistMetaDataIDKey": false,
     "Properties": [
@@ -919,37 +919,7 @@
       },
       {
         "Category": "Data",
-        "PropertyName": "IsBackBtnVisible",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Data",
-        "PropertyName": "UserDetailsFill",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Data",
-        "PropertyName": "ProfileImage",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Data",
-        "PropertyName": "HeaderFontSize",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Data",
-        "PropertyName": "HeaderColor",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Data",
-        "PropertyName": "HeaderHeight",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Data",
-        "PropertyName": "HeaderFill",
+        "PropertyName": "HeaderTitle",
         "RuleProviderType": "Unknown"
       },
       {
@@ -959,7 +929,37 @@
       },
       {
         "Category": "Data",
-        "PropertyName": "HeaderTitle",
+        "PropertyName": "HeaderColor",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Data",
+        "PropertyName": "HeaderFill",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Data",
+        "PropertyName": "ProfileImage",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Data",
+        "PropertyName": "HeaderHeight",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Data",
+        "PropertyName": "HeaderFontSize",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Data",
+        "PropertyName": "UserDetailsFill",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Data",
+        "PropertyName": "IsBackBtnVisible",
         "RuleProviderType": "Unknown"
       },
       {

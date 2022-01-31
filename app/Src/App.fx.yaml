@@ -1,4 +1,4 @@
 App As appinfo:
     BackEnabled: =false
-    OnStart: =Set(colorTheme, DarkCyan)
+    OnStart: =Set(colorTheme, RGBA(37,123,173,1))
 

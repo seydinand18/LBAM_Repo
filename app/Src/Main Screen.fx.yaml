@@ -65,7 +65,7 @@
 
                 "'Content container' As groupContainer.verticalAutoLayoutContainer":
                     AlignInContainer: =AlignInContainer.SetByContainer
-                    Fill: =RGBA(2,33,77,1)
+                    Fill: =RGBA(2,50,111,1)
                     LayoutDirection: =LayoutDirection.Vertical
                     LayoutMinHeight: =100
                     LayoutMinWidth: =250

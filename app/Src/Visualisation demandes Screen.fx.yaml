@@ -103,6 +103,15 @@
                                 X: =('VD tabs gallery'.TemplateWidth - Self.Width) / 2
                                 ZIndex: =1
 
+                            "'tab title' As label":
+                                Align: =Align.Center
+                                Height: =18
+                                OnSelect: =Select(Parent)
+                                Text: =ThisItem.title
+                                Width: ='VD tabs gallery'.TemplateWidth
+                                Y: =30
+                                ZIndex: =2
+
                         "'search bar container' As groupContainer.verticalAutoLayoutContainer":
                             AlignInContainer: =AlignInContainer.SetByContainer
                             Height: =Parent.Height

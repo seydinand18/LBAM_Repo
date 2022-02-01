@@ -1,0 +1,97 @@
+"'Visualisation demandes Screen' As screen":
+    BackgroundImage: =
+
+    "'Visualisation demandes Main container' As groupContainer.horizontalAutoLayoutContainer":
+        Height: =Parent.Height
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        Width: =Parent.Width
+        X: =
+        ZIndex: =2
+
+        "'Visualisation demandes Header container' As groupContainer.horizontalAutoLayoutContainer":
+            AlignInContainer: =AlignInContainer.SetByContainer
+            FillPortions: =0
+            Height: =50
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            Width: =Parent.Width
+            ZIndex: =1
+
+            "'Header component_1' As 'Atos SN Header Component'":
+                HeaderFill: =colorTheme
+                HeaderHeight: =Parent.Height
+                HeaderTitle: ="Atos - LBAM"
+                Height: ='Header component_1'.ShowDetailsHeight
+                LayoutMinHeight: =640
+                LayoutMinWidth: =640
+                ShowDetailsHeight: ='Header component_1'.HeaderHeight
+
+        "'Visualisation demandes Body container' As groupContainer.horizontalAutoLayoutContainer":
+            AlignInContainer: =AlignInContainer.SetByContainer
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            ZIndex: =2
+
+            "'Visualisation demandes Menu container' As groupContainer.verticalAutoLayoutContainer":
+                AlignInContainer: =AlignInContainer.SetByContainer
+                Height: =Parent.Height
+                LayoutDirection: =LayoutDirection.Vertical
+                LayoutMinHeight: =100
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                Width: ='Visualisation demandes Menu component'.MenuWidth
+                ZIndex: =2
+
+                "'Visualisation demandes Menu component' As 'Atos SN Menu Component'":
+                    Fill: ='Visualisation demandes Menu component'.MenuBgColor
+                    Height: =Parent.Height
+                    LayoutMinHeight: =640
+                    LayoutMinWidth: =640
+                    MenuBgColor: =ColorFade(colorTheme, -40%)
+                    OnReset: =Set(ExpandMenu, 'Visualisation demandes Menu component'.InExpandMenu)
+                    Width: ='Visualisation demandes Menu component'.MenuWidth
+
+            "'Visualisation demandes No name container' As groupContainer.verticalAutoLayoutContainer":
+                AlignInContainer: =AlignInContainer.SetByContainer
+                FillPortions: =9
+                Height: =Parent.Height
+                LayoutDirection: =LayoutDirection.Vertical
+                LayoutMinHeight: =100
+                LayoutMinWidth: =0
+                LayoutMode: =LayoutMode.Auto
+                Width: =
+                ZIndex: =3
+
+                "'Visualisation demandes Content container' As groupContainer.verticalAutoLayoutContainer":
+                    AlignInContainer: =AlignInContainer.SetByContainer
+                    Fill: =RGBA(2,33,77,1)
+                    LayoutDirection: =LayoutDirection.Vertical
+                    LayoutMinHeight: =100
+                    LayoutMinWidth: =250
+                    LayoutMode: =LayoutMode.Auto
+                    Width: =Parent.Width
+                    ZIndex: =1
+
+                "'Visualisation demandes Footer container' As groupContainer.horizontalAutoLayoutContainer":
+                    AlignInContainer: =AlignInContainer.SetByContainer
+                    FillPortions: =0
+                    Height: =25
+                    LayoutMinHeight: =100
+                    LayoutMinWidth: =250
+                    LayoutMode: =LayoutMode.Auto
+                    Width: =Parent.Width
+                    ZIndex: =2
+
+                    "'Footer Component_1' As 'Atos SN Footer Component'":
+                        Fill: ='Footer Component_1'.FooterFill
+                        FooterFontSize: =7
+                        FooterHeight: =Parent.Height
+                        Height: ='Footer Component_1'.FooterHeight
+                        LayoutMinHeight: =640
+                        LayoutMinWidth: =640
+                        Width: =Parent.Width
+                        ZIndex: =1
+

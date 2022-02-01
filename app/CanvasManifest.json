@@ -94,6 +94,7 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
-    "Main Screen"
+    "Main Screen",
+    "Visualisation demandes Screen"
   ]
 }

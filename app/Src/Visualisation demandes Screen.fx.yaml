@@ -144,6 +144,56 @@
                         LayoutMode: =LayoutMode.Auto
                         ZIndex: =2
 
+                        Separator As rectangle:
+                            Height: =10
+                            Width: =Parent.Width
+                            ZIndex: =1
+
+                        "'VD demands labels' As gallery.galleryHorizontal":
+                            FillPortions: =0
+                            Height: =Parent.Height / 12
+                            Items: =vd_tabs_items
+                            LayoutMinHeight: =20
+                            LayoutMinWidth: =20
+                            ShowScrollbar: =false
+                            TemplatePadding: =0
+                            TemplateSize: ='VD demands labels'.Width  / CountRows(vd_tabs_items)
+                            ZIndex: =2
+
+                            "'vd column name' As label":
+                                Align: =Align.Center
+                                Height: =20
+                                OnSelect: =Select(Parent)
+                                PaddingBottom: =0
+                                PaddingTop: =0
+                                Text: =ThisItem.title
+                                VerticalAlign: =VerticalAlign.Bottom
+                                Width: ='VD demands labels'.TemplateWidth
+                                Y: =(Parent.Height - Self.Height) / 2
+                                ZIndex: =2
+
+                            "'vd demand background' As rectangle":
+                                Fill: =RGBA(0, 0, 0, 0.5)
+                                Height: ='VD demands labels'.TemplateHeight
+                                OnSelect: =Select(Parent)
+                                Width: ='VD demands labels'.TemplateWidth
+                                ZIndex: =3
+
+                        "'Vd demands gallery' As gallery.galleryVertical":
+                            Items: =Accounts
+                            Layout: =Layout.Vertical
+                            LayoutMinHeight: =287
+                            LayoutMinWidth: =320
+                            TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
+                            ZIndex: =3
+
+                            Label6 As label:
+                                OnSelect: =Select(Parent)
+                                Text: =ThisItem.'Account Name'
+                                Width: ='VD demands labels'.Width / CountRows(vd_tabs_items)
+                                Y: =30
+                                ZIndex: =1
+
                 "'Visualisation demandes Footer container' As groupContainer.horizontalAutoLayoutContainer":
                     AlignInContainer: =AlignInContainer.SetByContainer
                     FillPortions: =0

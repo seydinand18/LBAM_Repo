@@ -517,6 +517,126 @@
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Visualisation demandes Screen.Visualisation demandes Main container.Visualisation demandes Body container.Visualisation demandes No name container.Visualisation demandes Content container.VD content container.Vd demands gallery.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Visualisation demandes Screen.Visualisation demandes Main container.Visualisation demandes Body container.Visualisation demandes No name container.Visualisation demandes Content container.VD content container.Vd demands gallery.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Visualisation demandes Screen",
+                "type": "Visualisation demandes Screen.Visualisation demandes Main container.Visualisation demandes Body container.Visualisation demandes No name container.Visualisation demandes Content container.VD content container.Vd demands gallery"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Visualisation demandes Screen.Visualisation demandes Main container.Visualisation demandes Body container.Visualisation demandes No name container.Visualisation demandes Content container.VD content container.Vd demands gallery.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Visualisation demandes Screen.Visualisation demandes Main container.Visualisation demandes Body container.Visualisation demandes No name container.Visualisation demandes Content container.VD content container.Vd demands gallery.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Visualisation demandes Screen",
+                "type": "Visualisation demandes Screen.Visualisation demandes Main container.Visualisation demandes Body container.Visualisation demandes No name container.Visualisation demandes Content container.VD content container.Vd demands gallery"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Visualisation demandes Screen.Visualisation demandes Main container.Visualisation demandes Body container.Visualisation demandes No name container.Visualisation demandes Content container.VD content container.VD demands labels.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Visualisation demandes Screen.Visualisation demandes Main container.Visualisation demandes Body container.Visualisation demandes No name container.Visualisation demandes Content container.VD content container.VD demands labels.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Visualisation demandes Screen",
+                "type": "Visualisation demandes Screen.Visualisation demandes Main container.Visualisation demandes Body container.Visualisation demandes No name container.Visualisation demandes Content container.VD content container.VD demands labels"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Visualisation demandes Screen.Visualisation demandes Main container.Visualisation demandes Body container.Visualisation demandes No name container.Visualisation demandes Content container.VD content container.VD demands labels.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Visualisation demandes Screen.Visualisation demandes Main container.Visualisation demandes Body container.Visualisation demandes No name container.Visualisation demandes Content container.VD content container.VD demands labels.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Visualisation demandes Screen",
+                "type": "Visualisation demandes Screen.Visualisation demandes Main container.Visualisation demandes Body container.Visualisation demandes No name container.Visualisation demandes Content container.VD content container.VD demands labels"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
         }
       ],
       "tool": {

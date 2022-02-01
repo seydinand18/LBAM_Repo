@@ -84,8 +84,24 @@
                         LayoutMode: =LayoutMode.Auto
                         PaddingLeft: =5
                         PaddingRight: =5
-                        PaddingTop: =5
                         ZIndex: =1
+
+                        "'VD tabs gallery' As gallery.galleryHorizontal":
+                            FillPortions: =2
+                            Items: =vd_tabs_items
+                            LayoutMinHeight: =20
+                            LayoutMinWidth: =320
+                            ShowScrollbar: =false
+                            TemplateSize: =Parent.Width / CountRows(vd_tabs_items)
+                            ZIndex: =1
+
+                            Icon1 As icon.Add:
+                                Height: =30
+                                Icon: =Icon.Add
+                                OnSelect: =Select(Parent)
+                                Width: =30
+                                X: =40
+                                ZIndex: =1
 
                         "'search bar container' As groupContainer.verticalAutoLayoutContainer":
                             AlignInContainer: =AlignInContainer.SetByContainer
@@ -95,7 +111,7 @@
                             LayoutMinHeight: =10
                             LayoutMinWidth: =20
                             LayoutMode: =LayoutMode.Auto
-                            ZIndex: =7
+                            ZIndex: =2
 
                             "'Atos SN Search Field Component_1' As 'Atos SN Search Field Component'":
                                 Height: ='Atos SN Search Field Component_1'.SearchFieldHeight

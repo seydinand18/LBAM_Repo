@@ -33,14 +33,16 @@
             LayoutMinHeight: =100
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
+            Width: =Parent.Width
             ZIndex: =2
 
             "'Visualisation demandes Menu container' As groupContainer.verticalAutoLayoutContainer":
                 AlignInContainer: =AlignInContainer.SetByContainer
+                FillPortions: =0
                 Height: =Parent.Height
                 LayoutDirection: =LayoutDirection.Vertical
                 LayoutMinHeight: =100
-                LayoutMinWidth: =250
+                LayoutMinWidth: =0
                 LayoutMode: =LayoutMode.Auto
                 Width: ='Visualisation demandes Menu component'.MenuWidth
                 ZIndex: =2

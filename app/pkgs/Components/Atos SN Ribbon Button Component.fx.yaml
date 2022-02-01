@@ -1,0 +1,58 @@
+"'Atos SN Ribbon Button Component' As CanvasComponent":
+    BackgroundColor: =DarkRed
+    displayModeBtn: =DisplayMode.Edit
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: ='Atos SN Ribbon Button Component'.RibbonButtonHeight
+    IconType: =Icon.Trash
+    LabelColor: =RGBA(255, 255, 255, 1)
+    LabelFontSize: =15
+    OnClickBtn: =true
+    RibbonButtonHeight: =50
+    RibbonButtonWidth: =200
+    TextLabel: ="Supprimer"
+    Width: ='Atos SN Ribbon Button Component'.RibbonButtonWidth
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    Label2 As label:
+        Color: ='Atos SN Ribbon Button Component'.LabelColor
+        Fill: ='Atos SN Ribbon Button Component'.BackgroundColor
+        Height: =Parent.Height
+        HoverFill: ='Atos SN Ribbon Button Component'.BackgroundColor
+        PaddingLeft: =Icon4.Width + 5
+        Size: ='Atos SN Ribbon Button Component'.LabelFontSize
+        Text: ='Atos SN Ribbon Button Component'.TextLabel
+        Visible: =App.ActiveScreen.Size <> ScreenSize.Small
+        Width: =Parent.Width
+        ZIndex: =1
+
+    Icon4 As icon.Add:
+        Color: ='Atos SN Ribbon Button Component'.LabelColor
+        Height: =Parent.Height/2
+        Icon: ='Atos SN Ribbon Button Component'.IconType
+        Width: =Self.Height
+        X: =If(App.ActiveScreen.Size=Small,(Parent.Width-Icon4.Width)/2,2.5)
+        Y: =(Parent.Height-Icon4.Height)/2
+        ZIndex: =2
+
+    RibbonButton As button:
+        DisabledBorderColor: =RGBA(230, 230, 230, 1)
+        DisabledColor: =Black
+        DisabledFill: =RGBA(230, 230, 230, 0.6)
+        DisplayMode: ='Atos SN Ribbon Button Component'.displayModeBtn
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =Parent.Height
+        HoverColor: =Self.Fill
+        HoverFill: =RGBA(0,0,0,0.2)
+        OnSelect: ='Atos SN Ribbon Button Component'.OnClickBtn()
+        PressedFill: =Self.Fill
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =24
+        Text: =""
+        Width: =Parent.Width
+        ZIndex: =3
+

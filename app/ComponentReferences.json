@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "HasLibraryLogicalName": true,
+    "InstanceCount": 1,
+    "LibraryId": "0986383f-e43a-494b-8a92-71da0e30b75c",
+    "LibraryLogicalName": "lbam_atossncomponentlibrary_5697e",
+    "OriginalComponentDefinitionTemplateId": "724ea428d78d4faf8d7af51b2851ee4f",
+    "RefusedSourceLastTimeSaved": "0001-01-01T00:00:00",
+    "SourceLastTimeSaved": "2022-01-31T11:40:26.673+00:00"
+  }
+]

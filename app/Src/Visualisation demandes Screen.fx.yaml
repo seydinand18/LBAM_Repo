@@ -69,13 +69,38 @@
 
                 "'Visualisation demandes Content container' As groupContainer.verticalAutoLayoutContainer":
                     AlignInContainer: =AlignInContainer.SetByContainer
-                    Fill: =RGBA(2,33,77,1)
+                    Fill: =RGBA(255, 255, 255, 1)
                     LayoutDirection: =LayoutDirection.Vertical
                     LayoutMinHeight: =100
                     LayoutMinWidth: =250
                     LayoutMode: =LayoutMode.Auto
                     Width: =Parent.Width
                     ZIndex: =1
+
+                    Container2 As groupContainer.horizontalAutoLayoutContainer:
+                        LayoutMinHeight: =40
+                        LayoutMinWidth: =250
+                        LayoutMode: =LayoutMode.Auto
+                        ZIndex: =1
+
+                        "'Atos SN Ribbon Button Component_1' As 'Atos SN Ribbon Button Component'":
+                            BackgroundColor: =RGBA(147,149,199,0.5)
+                            Height: ='Atos SN Ribbon Button Component_1'.RibbonButtonHeight
+                            IconType: =Icon.Add
+                            LabelColor: =RGBA(0, 0, 0, 1)
+                            LabelFontSize: =12
+                            LayoutMinHeight: =640
+                            LayoutMinWidth: =640
+                            TextLabel: ="   Nouvelle demande"
+                            Width: ='Atos SN Ribbon Button Component_1'.RibbonButtonWidth
+
+                    Container3 As groupContainer.verticalAutoLayoutContainer:
+                        FillPortions: =11
+                        LayoutDirection: =LayoutDirection.Vertical
+                        LayoutMinHeight: =100
+                        LayoutMinWidth: =250
+                        LayoutMode: =LayoutMode.Auto
+                        ZIndex: =2
 
                 "'Visualisation demandes Footer container' As groupContainer.horizontalAutoLayoutContainer":
                     AlignInContainer: =AlignInContainer.SetByContainer

@@ -118,10 +118,11 @@
                                 ZIndex: =2
 
                         "'search bar container' As groupContainer.verticalAutoLayoutContainer":
-                            AlignInContainer: =AlignInContainer.SetByContainer
+                            AlignInContainer: =AlignInContainer.Start
                             Height: =Parent.Height
-                            LayoutAlignItems: =LayoutAlignItems.End
+                            LayoutAlignItems: =LayoutAlignItems.Center
                             LayoutDirection: =LayoutDirection.Vertical
+                            LayoutJustifyContent: =LayoutJustifyContent.Center
                             LayoutMinHeight: =10
                             LayoutMinWidth: =20
                             LayoutMode: =LayoutMode.Auto
@@ -132,7 +133,7 @@
                                 LayoutMinHeight: =640
                                 LayoutMinWidth: =640
                                 SearchFieldFontSize: =12
-                                SearchFieldHeight: =Parent.Height
+                                SearchFieldHeight: =Parent.Height * 5 / 6
                                 Width: ='Atos SN Search Field Component_1'.SearchFieldWidth
 
                     "'VD content container' As groupContainer.verticalAutoLayoutContainer":

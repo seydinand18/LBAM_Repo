@@ -77,7 +77,7 @@
                     Width: =Parent.Width
                     ZIndex: =1
 
-                    Container2 As groupContainer.horizontalAutoLayoutContainer:
+                    "'VD menu container' As groupContainer.horizontalAutoLayoutContainer":
                         LayoutGap: =5
                         LayoutMinHeight: =40
                         LayoutMinWidth: =250
@@ -87,48 +87,13 @@
                         PaddingTop: =5
                         ZIndex: =1
 
-                        "'Add Button Component' As 'Atos SN Ribbon Button Component'":
-                            AlignInContainer: =AlignInContainer.Center
-                            BackgroundColor: =RGBA(136,173,207,0.5)
-                            Height: ='Add Button Component'.RibbonButtonHeight
-                            IconType: =Icon.Add
-                            LabelColor: =RGBA(0, 0, 0, 1)
-                            LabelFontSize: =12
-                            LayoutMinHeight: =640
-                            LayoutMinWidth: =640
-                            TextLabel: ="   Nouvelle demande"
-                            Width: ='Add Button Component'.RibbonButtonWidth
-
-                        "'Modify Button Component' As 'Atos SN Ribbon Button Component'":
-                            AlignInContainer: =AlignInContainer.Center
-                            BackgroundColor: =RGBA(136,173,207,0.5)
-                            Height: ='Modify Button Component'.RibbonButtonHeight
-                            IconType: =Icon.Edit
-                            LabelColor: =RGBA(0, 0, 0, 1)
-                            LabelFontSize: =12
-                            LayoutMinHeight: =640
-                            LayoutMinWidth: =640
-                            TextLabel: ="   Editer"
-                            Width: ='Modify Button Component'.RibbonButtonWidth
-                            ZIndex: =2
-
-                        "'Delete Button Component' As 'Atos SN Ribbon Button Component'":
-                            AlignInContainer: =AlignInContainer.Center
-                            BackgroundColor: =RGBA(136,173,207,0.5)
-                            Height: ='Delete Button Component'.RibbonButtonHeight
-                            LabelColor: =RGBA(0, 0, 0, 1)
-                            LabelFontSize: =12
-                            LayoutMinHeight: =640
-                            LayoutMinWidth: =640
-                            TextLabel: ="   Supprimer"
-                            Width: ='Delete Button Component'.RibbonButtonWidth
-                            ZIndex: =3
-
                         "'search bar container' As groupContainer.verticalAutoLayoutContainer":
+                            AlignInContainer: =AlignInContainer.SetByContainer
+                            Height: =Parent.Height
                             LayoutAlignItems: =LayoutAlignItems.End
                             LayoutDirection: =LayoutDirection.Vertical
                             LayoutMinHeight: =10
-                            LayoutMinWidth: =250
+                            LayoutMinWidth: =20
                             LayoutMode: =LayoutMode.Auto
                             ZIndex: =7
 
@@ -140,7 +105,7 @@
                                 SearchFieldHeight: =Parent.Height
                                 Width: ='Atos SN Search Field Component_1'.SearchFieldWidth
 
-                    Container3 As groupContainer.verticalAutoLayoutContainer:
+                    "'VD content container' As groupContainer.verticalAutoLayoutContainer":
                         FillPortions: =11
                         LayoutDirection: =LayoutDirection.Vertical
                         LayoutMinHeight: =100

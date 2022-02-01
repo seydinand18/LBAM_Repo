@@ -1,0 +1,9 @@
+[
+  {
+    "IsComponentScoped": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "Name": "vd_tabs_items",
+    "Type": "CollectionDataSourceInfo"
+  }
+]

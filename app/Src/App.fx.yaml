@@ -1,4 +1,17 @@
 App As appinfo:
     BackEnabled: =false
-    OnStart: =Set(colorTheme, RGBA(3,102,161,1))
+    OnStart: |-
+        =Set(colorTheme, RGBA(3,102,161,1));
+        
+        Collect(vd_tabs_items, {
+            title : "Nouvelle demande",
+            icon : Icon.Add
+        }, {
+            title : "Modifier",
+            icon : Icon.Edit
+        }, {
+            title : "Supprimer",
+            icon : Icon.Trash
+        }
+        )
 

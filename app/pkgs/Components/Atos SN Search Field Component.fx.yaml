@@ -1,0 +1,31 @@
+"'Atos SN Search Field Component' As CanvasComponent":
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: ='Atos SN Search Field Component'.SearchFieldHeight
+    OnChangeSearchField: =true
+    OutSearchField: =SearchTextInput.Text
+    SearchFieldFontSize: =15
+    SearchFieldHeight: =50
+    SearchFieldWidth: =400
+    Width: ='Atos SN Search Field Component'.SearchFieldWidth
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    SearchTextInput As text:
+        Default: =""
+        Height: =Parent.Height
+        HintText: ="Chercher..."
+        OnChange: ='Atos SN Search Field Component'.OnChangeSearchField()
+        PaddingLeft: =SearchIcon.Width + 5
+        Size: ='Atos SN Search Field Component'.SearchFieldFontSize
+        Width: =Parent.Width
+        ZIndex: =1
+
+    SearchIcon As icon.Add:
+        Height: =SearchTextInput.Height/2
+        Icon: =Icon.Search
+        Width: =Self.Height
+        X: =2.5
+        Y: =(Parent.Height-SearchIcon.Height)/2
+        ZIndex: =2
+

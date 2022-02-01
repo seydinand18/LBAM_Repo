@@ -58,7 +58,7 @@
 
             "'Visualisation demandes No name container' As groupContainer.verticalAutoLayoutContainer":
                 AlignInContainer: =AlignInContainer.SetByContainer
-                FillPortions: =9
+                FillPortions: =11
                 Height: =Parent.Height
                 LayoutDirection: =LayoutDirection.Vertical
                 LayoutMinHeight: =100
@@ -78,21 +78,67 @@
                     ZIndex: =1
 
                     Container2 As groupContainer.horizontalAutoLayoutContainer:
+                        LayoutGap: =5
                         LayoutMinHeight: =40
                         LayoutMinWidth: =250
                         LayoutMode: =LayoutMode.Auto
+                        PaddingLeft: =5
+                        PaddingRight: =5
+                        PaddingTop: =5
                         ZIndex: =1
 
-                        "'Atos SN Ribbon Button Component_1' As 'Atos SN Ribbon Button Component'":
-                            BackgroundColor: =RGBA(147,149,199,0.5)
-                            Height: ='Atos SN Ribbon Button Component_1'.RibbonButtonHeight
+                        "'Add Button Component' As 'Atos SN Ribbon Button Component'":
+                            AlignInContainer: =AlignInContainer.Center
+                            BackgroundColor: =RGBA(136,173,207,0.5)
+                            Height: ='Add Button Component'.RibbonButtonHeight
                             IconType: =Icon.Add
                             LabelColor: =RGBA(0, 0, 0, 1)
                             LabelFontSize: =12
                             LayoutMinHeight: =640
                             LayoutMinWidth: =640
                             TextLabel: ="   Nouvelle demande"
-                            Width: ='Atos SN Ribbon Button Component_1'.RibbonButtonWidth
+                            Width: ='Add Button Component'.RibbonButtonWidth
+
+                        "'Modify Button Component' As 'Atos SN Ribbon Button Component'":
+                            AlignInContainer: =AlignInContainer.Center
+                            BackgroundColor: =RGBA(136,173,207,0.5)
+                            Height: ='Modify Button Component'.RibbonButtonHeight
+                            IconType: =Icon.Edit
+                            LabelColor: =RGBA(0, 0, 0, 1)
+                            LabelFontSize: =12
+                            LayoutMinHeight: =640
+                            LayoutMinWidth: =640
+                            TextLabel: ="   Editer"
+                            Width: ='Modify Button Component'.RibbonButtonWidth
+                            ZIndex: =2
+
+                        "'Delete Button Component' As 'Atos SN Ribbon Button Component'":
+                            AlignInContainer: =AlignInContainer.Center
+                            BackgroundColor: =RGBA(136,173,207,0.5)
+                            Height: ='Delete Button Component'.RibbonButtonHeight
+                            LabelColor: =RGBA(0, 0, 0, 1)
+                            LabelFontSize: =12
+                            LayoutMinHeight: =640
+                            LayoutMinWidth: =640
+                            TextLabel: ="   Supprimer"
+                            Width: ='Delete Button Component'.RibbonButtonWidth
+                            ZIndex: =3
+
+                        "'search bar container' As groupContainer.verticalAutoLayoutContainer":
+                            LayoutAlignItems: =LayoutAlignItems.End
+                            LayoutDirection: =LayoutDirection.Vertical
+                            LayoutMinHeight: =10
+                            LayoutMinWidth: =250
+                            LayoutMode: =LayoutMode.Auto
+                            ZIndex: =7
+
+                            "'Atos SN Search Field Component_1' As 'Atos SN Search Field Component'":
+                                Height: ='Atos SN Search Field Component_1'.SearchFieldHeight
+                                LayoutMinHeight: =640
+                                LayoutMinWidth: =640
+                                SearchFieldFontSize: =12
+                                SearchFieldHeight: =Parent.Height
+                                Width: ='Atos SN Search Field Component_1'.SearchFieldWidth
 
                     Container3 As groupContainer.verticalAutoLayoutContainer:
                         FillPortions: =11

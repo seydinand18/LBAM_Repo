@@ -1,5 +1,5 @@
 {
-  "Atos SN Ribbon Button Component_1": {
+  "Add Button Component": {
     "AllowAccessToGlobals": true,
     "ControlPropertyState": [
       "Fill",
@@ -92,7 +92,14 @@
         "PropertyName": "FillPortions"
       },
       {
-        "ControlPropertyState": "AlignInContainer",
+        "ControlPropertyState": {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "AlignInContainer",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "Property": {
           "Category": "Design",
           "PropertyName": "AlignInContainer",
@@ -133,33 +140,13 @@
       "Description": ""
     },
     "MetaDataIDKey": "",
-    "Name": "Atos SN Ribbon Button Component_1",
-    "ParentIndex": 0,
+    "Name": "Add Button Component",
+    "ParentIndex": 1,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
         "Category": "Data",
-        "PropertyName": "RibbonButtonHeight",
-        "RuleProviderType": "System"
-      },
-      {
-        "Category": "Data",
-        "PropertyName": "RibbonButtonWidth",
-        "RuleProviderType": "System"
-      },
-      {
-        "Category": "Data",
-        "PropertyName": "IconType",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Data",
-        "PropertyName": "TextLabel",
-        "RuleProviderType": "Unknown"
-      },
-      {
-        "Category": "Data",
-        "PropertyName": "LabelFontSize",
+        "PropertyName": "BackgroundColor",
         "RuleProviderType": "Unknown"
       },
       {
@@ -169,38 +156,58 @@
       },
       {
         "Category": "Data",
-        "PropertyName": "BackgroundColor",
+        "PropertyName": "LabelFontSize",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Data",
+        "PropertyName": "TextLabel",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Data",
+        "PropertyName": "IconType",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Data",
+        "PropertyName": "RibbonButtonWidth",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Data",
+        "PropertyName": "RibbonButtonHeight",
         "RuleProviderType": "Unknown"
       },
       {
         "Category": "Data",
         "PropertyName": "displayModeBtn",
-        "RuleProviderType": "System"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "Fill",
-        "RuleProviderType": "System"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "Height",
-        "RuleProviderType": "System"
-      },
-      {
-        "Category": "Design",
-        "PropertyName": "Width",
-        "RuleProviderType": "System"
+        "RuleProviderType": "Unknown"
       },
       {
         "Category": "Design",
         "PropertyName": "X",
-        "RuleProviderType": "System"
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "Fill",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "Width",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "Height",
+        "RuleProviderType": "Unknown"
       },
       {
         "Category": "Design",
         "PropertyName": "Y",
-        "RuleProviderType": "System"
+        "RuleProviderType": "Unknown"
       },
       {
         "Category": "Design",
@@ -210,6 +217,185 @@
       {
         "Category": "Behavior",
         "PropertyName": "OnClickBtn",
+        "RuleProviderType": "Unknown"
+      }
+    ],
+    "StyleName": "",
+    "Type": "ControlInfo"
+  },
+  "Atos SN Search Field Component_1": {
+    "AllowAccessToGlobals": true,
+    "ControlPropertyState": [
+      "Fill",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "640",
+        "InvariantPropertyName": "Height",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "640",
+        "InvariantPropertyName": "Width",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
+      "X",
+      "Y",
+      "ZIndex",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "100",
+        "InvariantPropertyName": "SearchFieldHeight",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "100",
+        "InvariantPropertyName": "SearchFieldWidth",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "",
+        "InvariantPropertyName": "SearchFieldFontSize",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "\"Text\"",
+        "InvariantPropertyName": "OutSearchField",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
+      "OnChangeSearchField"
+    ],
+    "DynamicProperties": [
+      {
+        "ControlPropertyState": "FillPortions",
+        "Property": {
+          "Category": "Design",
+          "PropertyName": "FillPortions",
+          "RuleProviderType": "Unknown"
+        },
+        "PropertyName": "FillPortions"
+      },
+      {
+        "ControlPropertyState": {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "AlignInContainer",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        "Property": {
+          "Category": "Design",
+          "PropertyName": "AlignInContainer",
+          "RuleProviderType": "Unknown"
+        },
+        "PropertyName": "AlignInContainer"
+      },
+      {
+        "ControlPropertyState": "LayoutMinWidth",
+        "Property": {
+          "Category": "Design",
+          "PropertyName": "LayoutMinWidth",
+          "RuleProviderType": "Unknown"
+        },
+        "PropertyName": "LayoutMinWidth"
+      },
+      {
+        "ControlPropertyState": "LayoutMinHeight",
+        "Property": {
+          "Category": "Design",
+          "PropertyName": "LayoutMinHeight",
+          "RuleProviderType": "Unknown"
+        },
+        "PropertyName": "LayoutMinHeight"
+      }
+    ],
+    "HasDynamicProperties": true,
+    "IsAutoGenerated": false,
+    "IsComponentDefinition": false,
+    "IsDataControl": false,
+    "IsFromScreenLayout": false,
+    "IsGroupControl": false,
+    "IsLocked": false,
+    "LayoutName": "",
+    "Metadata": {
+      "AllowAccessToGlobals": false,
+      "AllowCustomization": true,
+      "Description": ""
+    },
+    "MetaDataIDKey": "",
+    "Name": "Atos SN Search Field Component_1",
+    "ParentIndex": 0,
+    "PersistMetaDataIDKey": false,
+    "Properties": [
+      {
+        "Category": "Data",
+        "PropertyName": "SearchFieldHeight",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Data",
+        "PropertyName": "SearchFieldWidth",
+        "RuleProviderType": "System"
+      },
+      {
+        "Category": "Data",
+        "PropertyName": "OutSearchField",
+        "RuleProviderType": "System"
+      },
+      {
+        "Category": "Data",
+        "PropertyName": "SearchFieldFontSize",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "ZIndex",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "Y",
+        "RuleProviderType": "System"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "X",
+        "RuleProviderType": "System"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "Fill",
+        "RuleProviderType": "System"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "Width",
+        "RuleProviderType": "System"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "Height",
+        "RuleProviderType": "System"
+      },
+      {
+        "Category": "Behavior",
+        "PropertyName": "OnChangeSearchField",
         "RuleProviderType": "System"
       }
     ],
@@ -232,11 +418,42 @@
       "LayoutDirection",
       "LayoutAlignItems",
       "LayoutJustifyContent",
-      "LayoutGap",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "",
+        "InvariantPropertyName": "LayoutGap",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
       "LayoutOverflowX",
       "LayoutOverflowY",
       "LayoutWrap",
-      "ZIndex"
+      "ZIndex",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "",
+        "InvariantPropertyName": "PaddingLeft",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "",
+        "InvariantPropertyName": "PaddingTop",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "",
+        "InvariantPropertyName": "PaddingRight",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      }
     ],
     "DynamicProperties": [
       {
@@ -391,6 +608,21 @@
       {
         "Category": "Design",
         "PropertyName": "ZIndex",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "PaddingLeft",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "PaddingTop",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "PaddingRight",
         "RuleProviderType": "Unknown"
       }
     ],
@@ -565,6 +797,230 @@
       {
         "Category": "Design",
         "PropertyName": "ZIndex",
+        "RuleProviderType": "Unknown"
+      }
+    ],
+    "StyleName": "",
+    "Type": "ControlInfo"
+  },
+  "Delete Button Component": {
+    "AllowAccessToGlobals": true,
+    "ControlPropertyState": [
+      "Fill",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "640",
+        "InvariantPropertyName": "Height",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "640",
+        "InvariantPropertyName": "Width",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
+      "X",
+      "Y",
+      "ZIndex",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "100",
+        "InvariantPropertyName": "RibbonButtonHeight",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "100",
+        "InvariantPropertyName": "RibbonButtonWidth",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "\"Text\"",
+        "InvariantPropertyName": "IconType",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "",
+        "InvariantPropertyName": "TextLabel",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "",
+        "InvariantPropertyName": "LabelFontSize",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
+      "LabelColor",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "RGBA(0, 0, 0, 1)",
+        "InvariantPropertyName": "BackgroundColor",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
+      "OnClickBtn",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "\"Text\"",
+        "InvariantPropertyName": "displayModeBtn",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      }
+    ],
+    "DynamicProperties": [
+      {
+        "ControlPropertyState": "FillPortions",
+        "Property": {
+          "Category": "Design",
+          "PropertyName": "FillPortions",
+          "RuleProviderType": "Unknown"
+        },
+        "PropertyName": "FillPortions"
+      },
+      {
+        "ControlPropertyState": {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "AlignInContainer",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        "Property": {
+          "Category": "Design",
+          "PropertyName": "AlignInContainer",
+          "RuleProviderType": "Unknown"
+        },
+        "PropertyName": "AlignInContainer"
+      },
+      {
+        "ControlPropertyState": "LayoutMinWidth",
+        "Property": {
+          "Category": "Design",
+          "PropertyName": "LayoutMinWidth",
+          "RuleProviderType": "Unknown"
+        },
+        "PropertyName": "LayoutMinWidth"
+      },
+      {
+        "ControlPropertyState": "LayoutMinHeight",
+        "Property": {
+          "Category": "Design",
+          "PropertyName": "LayoutMinHeight",
+          "RuleProviderType": "Unknown"
+        },
+        "PropertyName": "LayoutMinHeight"
+      }
+    ],
+    "HasDynamicProperties": true,
+    "IsAutoGenerated": false,
+    "IsComponentDefinition": false,
+    "IsDataControl": false,
+    "IsFromScreenLayout": false,
+    "IsGroupControl": false,
+    "IsLocked": false,
+    "LayoutName": "",
+    "Metadata": {
+      "AllowAccessToGlobals": false,
+      "AllowCustomization": true,
+      "Description": ""
+    },
+    "MetaDataIDKey": "",
+    "Name": "Delete Button Component",
+    "ParentIndex": 3,
+    "PersistMetaDataIDKey": false,
+    "Properties": [
+      {
+        "Category": "Data",
+        "PropertyName": "RibbonButtonHeight",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Data",
+        "PropertyName": "RibbonButtonWidth",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Data",
+        "PropertyName": "IconType",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Data",
+        "PropertyName": "TextLabel",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Data",
+        "PropertyName": "LabelFontSize",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Data",
+        "PropertyName": "LabelColor",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Data",
+        "PropertyName": "BackgroundColor",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Data",
+        "PropertyName": "displayModeBtn",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "X",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "Fill",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "Width",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "Height",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "Y",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "ZIndex",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Behavior",
+        "PropertyName": "OnClickBtn",
         "RuleProviderType": "Unknown"
       }
     ],
@@ -1045,6 +1501,411 @@
       {
         "Category": "Behavior",
         "PropertyName": "OnToggleMenuSizeOne",
+        "RuleProviderType": "Unknown"
+      }
+    ],
+    "StyleName": "",
+    "Type": "ControlInfo"
+  },
+  "Modify Button Component": {
+    "AllowAccessToGlobals": true,
+    "ControlPropertyState": [
+      "Fill",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "640",
+        "InvariantPropertyName": "Height",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "640",
+        "InvariantPropertyName": "Width",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
+      "X",
+      "Y",
+      "ZIndex",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "100",
+        "InvariantPropertyName": "RibbonButtonHeight",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "100",
+        "InvariantPropertyName": "RibbonButtonWidth",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "\"Text\"",
+        "InvariantPropertyName": "IconType",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "",
+        "InvariantPropertyName": "TextLabel",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "",
+        "InvariantPropertyName": "LabelFontSize",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
+      "LabelColor",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "RGBA(0, 0, 0, 1)",
+        "InvariantPropertyName": "BackgroundColor",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
+      "OnClickBtn",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "\"Text\"",
+        "InvariantPropertyName": "displayModeBtn",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      }
+    ],
+    "DynamicProperties": [
+      {
+        "ControlPropertyState": "FillPortions",
+        "Property": {
+          "Category": "Design",
+          "PropertyName": "FillPortions",
+          "RuleProviderType": "Unknown"
+        },
+        "PropertyName": "FillPortions"
+      },
+      {
+        "ControlPropertyState": {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "AlignInContainer",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        "Property": {
+          "Category": "Design",
+          "PropertyName": "AlignInContainer",
+          "RuleProviderType": "Unknown"
+        },
+        "PropertyName": "AlignInContainer"
+      },
+      {
+        "ControlPropertyState": "LayoutMinWidth",
+        "Property": {
+          "Category": "Design",
+          "PropertyName": "LayoutMinWidth",
+          "RuleProviderType": "Unknown"
+        },
+        "PropertyName": "LayoutMinWidth"
+      },
+      {
+        "ControlPropertyState": "LayoutMinHeight",
+        "Property": {
+          "Category": "Design",
+          "PropertyName": "LayoutMinHeight",
+          "RuleProviderType": "Unknown"
+        },
+        "PropertyName": "LayoutMinHeight"
+      }
+    ],
+    "HasDynamicProperties": true,
+    "IsAutoGenerated": false,
+    "IsComponentDefinition": false,
+    "IsDataControl": false,
+    "IsFromScreenLayout": false,
+    "IsGroupControl": false,
+    "IsLocked": false,
+    "LayoutName": "",
+    "Metadata": {
+      "AllowAccessToGlobals": false,
+      "AllowCustomization": true,
+      "Description": ""
+    },
+    "MetaDataIDKey": "",
+    "Name": "Modify Button Component",
+    "ParentIndex": 2,
+    "PersistMetaDataIDKey": false,
+    "Properties": [
+      {
+        "Category": "Data",
+        "PropertyName": "RibbonButtonHeight",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Data",
+        "PropertyName": "RibbonButtonWidth",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Data",
+        "PropertyName": "IconType",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Data",
+        "PropertyName": "TextLabel",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Data",
+        "PropertyName": "LabelFontSize",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Data",
+        "PropertyName": "LabelColor",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Data",
+        "PropertyName": "BackgroundColor",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Data",
+        "PropertyName": "displayModeBtn",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "X",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "Fill",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "Width",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "Height",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "Y",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "ZIndex",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Behavior",
+        "PropertyName": "OnClickBtn",
+        "RuleProviderType": "Unknown"
+      }
+    ],
+    "StyleName": "",
+    "Type": "ControlInfo"
+  },
+  "search bar container": {
+    "AllowAccessToGlobals": true,
+    "ControlPropertyState": [
+      "BorderColor",
+      "BorderStyle",
+      "Fill",
+      "X",
+      "Y",
+      "Width",
+      "Height",
+      "DisplayMode",
+      "ChildTabPriority",
+      "LayoutMode",
+      "LayoutDirection",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "",
+        "InvariantPropertyName": "LayoutAlignItems",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
+      "LayoutJustifyContent",
+      "LayoutGap",
+      "LayoutOverflowX",
+      "LayoutOverflowY",
+      "LayoutWrap",
+      "ZIndex"
+    ],
+    "DynamicProperties": [
+      {
+        "ControlPropertyState": "FillPortions",
+        "Property": {
+          "Category": "Design",
+          "PropertyName": "FillPortions",
+          "RuleProviderType": "Unknown"
+        },
+        "PropertyName": "FillPortions"
+      },
+      {
+        "ControlPropertyState": "AlignInContainer",
+        "Property": {
+          "Category": "Design",
+          "PropertyName": "AlignInContainer",
+          "RuleProviderType": "Unknown"
+        },
+        "PropertyName": "AlignInContainer"
+      },
+      {
+        "ControlPropertyState": "LayoutMinWidth",
+        "Property": {
+          "Category": "Design",
+          "PropertyName": "LayoutMinWidth",
+          "RuleProviderType": "Unknown"
+        },
+        "PropertyName": "LayoutMinWidth"
+      },
+      {
+        "ControlPropertyState": {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "LayoutMinHeight",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        "Property": {
+          "Category": "Design",
+          "PropertyName": "LayoutMinHeight",
+          "RuleProviderType": "Unknown"
+        },
+        "PropertyName": "LayoutMinHeight"
+      }
+    ],
+    "HasDynamicProperties": true,
+    "IsAutoGenerated": false,
+    "IsComponentDefinition": false,
+    "IsDataControl": false,
+    "IsFromScreenLayout": false,
+    "IsGroupControl": false,
+    "IsLocked": false,
+    "LayoutName": "",
+    "MetaDataIDKey": "",
+    "Name": "search bar container",
+    "ParentIndex": 0,
+    "PersistMetaDataIDKey": false,
+    "Properties": [
+      {
+        "Category": "Design",
+        "PropertyName": "Y",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "X",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "Fill",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "BorderStyle",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "ChildTabPriority",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "LayoutWrap",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "LayoutGap",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "ZIndex",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "BorderColor",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "LayoutOverflowY",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "LayoutOverflowX",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "LayoutJustifyContent",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "LayoutAlignItems",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "Height",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "LayoutDirection",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "LayoutMode",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "Width",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Design",
+        "PropertyName": "DisplayMode",
         "RuleProviderType": "Unknown"
       }
     ],

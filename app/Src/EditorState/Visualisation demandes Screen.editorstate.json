@@ -411,7 +411,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "galleryTemplate2",
-    "ParentIndex": 1,
+    "ParentIndex": 0,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
@@ -946,7 +946,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "tab icon",
-    "ParentIndex": 2,
+    "ParentIndex": 1,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
@@ -1097,7 +1097,14 @@
       "HoverBorderColor",
       "BorderStyle",
       "FocusedBorderColor",
-      "Fill",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "",
+        "InvariantPropertyName": "Fill",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
       "DisabledFill",
       "PressedFill",
       "HoverFill",
@@ -1111,7 +1118,14 @@
         "IsLockable": false,
         "NameMapSourceSchema": "?"
       },
-      "VerticalAlign",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "",
+        "InvariantPropertyName": "VerticalAlign",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
       {
         "AFDDataSourceName": "",
         "AutoRuleBindingEnabled": false,
@@ -1120,7 +1134,14 @@
         "IsLockable": false,
         "NameMapSourceSchema": "?"
       },
-      "Y",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "30",
+        "InvariantPropertyName": "Y",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
       {
         "AFDDataSourceName": "",
         "AutoRuleBindingEnabled": false,
@@ -1129,7 +1150,14 @@
         "IsLockable": false,
         "NameMapSourceSchema": "?"
       },
-      "Height",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "",
+        "InvariantPropertyName": "Height",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
       "DisplayMode",
       "OnSelect",
       "ZIndex",
@@ -1140,9 +1168,23 @@
       "Italic",
       "Underline",
       "Strikethrough",
-      "PaddingTop",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "",
+        "InvariantPropertyName": "PaddingTop",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
       "PaddingRight",
-      "PaddingBottom",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "",
+        "InvariantPropertyName": "PaddingBottom",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
       "PaddingLeft"
     ],
     "HasDynamicProperties": false,
@@ -1155,7 +1197,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "tab title",
-    "ParentIndex": 0,
+    "ParentIndex": 2,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
@@ -1782,7 +1824,14 @@
         "IsLockable": false,
         "NameMapSourceSchema": "?"
       },
-      "TemplatePadding",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "",
+        "InvariantPropertyName": "TemplatePadding",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
       "Layout",
       "Transition",
       "LoadingSpinner",
@@ -1794,14 +1843,28 @@
       "HoverBorderColor",
       "BorderStyle",
       "FocusedBorderColor",
-      "Fill",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "",
+        "InvariantPropertyName": "Fill",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
       "DisabledFill",
       "PressedFill",
       "HoverFill",
       "X",
       "Y",
       "Width",
-      "Height",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "575",
+        "InvariantPropertyName": "Height",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
       "ZIndex",
       {
         "AFDDataSourceName": "",

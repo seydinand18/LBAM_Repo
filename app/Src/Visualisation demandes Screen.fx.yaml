@@ -88,10 +88,12 @@
 
                         "'VD tabs gallery' As gallery.galleryHorizontal":
                             FillPortions: =2
+                            Height: =Parent.Height
                             Items: =vd_tabs_items
                             LayoutMinHeight: =20
                             LayoutMinWidth: =20
                             ShowScrollbar: =false
+                            TemplatePadding: =0
                             TemplateSize: ='VD tabs gallery'.Width  / CountRows(vd_tabs_items)
                             ZIndex: =1
 
@@ -105,11 +107,14 @@
 
                             "'tab title' As label":
                                 Align: =Align.Center
-                                Height: =18
+                                Height: =20
                                 OnSelect: =Select(Parent)
+                                PaddingBottom: =0
+                                PaddingTop: =0
                                 Text: =ThisItem.title
+                                VerticalAlign: =VerticalAlign.Bottom
                                 Width: ='VD tabs gallery'.TemplateWidth
-                                Y: =30
+                                Y: ='VD tabs gallery'.TemplateHeight - Self.Height
                                 ZIndex: =2
 
                         "'search bar container' As groupContainer.verticalAutoLayoutContainer":
@@ -131,7 +136,7 @@
                                 Width: ='Atos SN Search Field Component_1'.SearchFieldWidth
 
                     "'VD content container' As groupContainer.verticalAutoLayoutContainer":
-                        FillPortions: =11
+                        FillPortions: =10
                         LayoutDirection: =LayoutDirection.Vertical
                         LayoutMinHeight: =100
                         LayoutMinWidth: =250

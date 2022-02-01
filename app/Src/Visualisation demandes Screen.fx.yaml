@@ -160,6 +160,13 @@
                             TemplateSize: ='VD demands labels'.Width  / CountRows(vd_demandes_elements_labels)
                             ZIndex: =2
 
+                            "'vd demand background' As rectangle":
+                                Fill: =RGBA(167, 182, 203, 1)
+                                Height: ='VD demands labels'.TemplateHeight
+                                OnSelect: =Select(Parent)
+                                Width: ='VD demands labels'.TemplateWidth
+                                ZIndex: =1
+
                             "'vd column name' As label":
                                 Align: =Align.Center
                                 Height: =20
@@ -172,27 +179,54 @@
                                 Y: =(Parent.Height - Self.Height) / 2
                                 ZIndex: =2
 
-                            "'vd demand background' As rectangle":
-                                Fill: =RGBA(0, 0, 0, 0.5)
-                                Height: ='VD demands labels'.TemplateHeight
-                                OnSelect: =Select(Parent)
-                                Width: ='VD demands labels'.TemplateWidth
-                                ZIndex: =3
-
                         "'Vd demands gallery' As gallery.galleryVertical":
+                            FillPortions: =0
+                            Height: =Parent.Height
                             Items: =Accounts
                             Layout: =Layout.Vertical
-                            LayoutMinHeight: =287
+                            LayoutMinHeight: =10
                             LayoutMinWidth: =320
-                            TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
+                            TemplateSize: =Parent.Height / 8
                             ZIndex: =3
 
-                            Label6 As label:
+                            "'label intitulé' As label":
                                 OnSelect: =Select(Parent)
                                 Text: =ThisItem.'Account Name'
-                                Width: ='VD demands labels'.Width / CountRows(vd_tabs_items)
+                                Width: ='VD demands labels'.Width / CountRows(vd_demandes_elements_labels)
                                 Y: =30
                                 ZIndex: =1
+
+                            "'label responsable' As label":
+                                OnSelect: =Select(Parent)
+                                Text: =ThisItem.'Account Name'
+                                Width: ='VD demands labels'.Width / CountRows(vd_demandes_elements_labels)
+                                X: =263
+                                Y: =30
+                                ZIndex: =2
+
+                            "'label date de début souhaitée' As label":
+                                OnSelect: =Select(Parent)
+                                Text: =ThisItem.'Account Name'
+                                Width: ='VD demands labels'.Width / CountRows(vd_demandes_elements_labels)
+                                X: =526
+                                Y: =30
+                                ZIndex: =3
+
+                            "'label date ed fin souhaitée' As label":
+                                OnSelect: =Select(Parent)
+                                Text: =ThisItem.'Account Name'
+                                Width: ='VD demands labels'.Width / CountRows(vd_demandes_elements_labels)
+                                X: =789
+                                Y: =30
+                                ZIndex: =4
+
+                            "'label étape actuelle' As label":
+                                OnSelect: =Select(Parent)
+                                Text: =ThisItem.'Account Name'
+                                Width: ='VD demands labels'.Width / CountRows(vd_demandes_elements_labels)
+                                X: =1043
+                                Y: =30
+                                ZIndex: =5
 
                 "'Visualisation demandes Footer container' As groupContainer.horizontalAutoLayoutContainer":
                     AlignInContainer: =AlignInContainer.SetByContainer

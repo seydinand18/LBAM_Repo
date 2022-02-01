@@ -12,20 +12,21 @@ App As appinfo:
         );
         ClearCollect(
             vd_tabs_items,
-            {
-                title: "Nouvelle demande",
-                icon: Icon.Add
-            },
-            {
-                title: "Modifier",
-                icon: Icon.Edit
-            },
-            {
-                title: "Supprimer",
-                icon: Icon.Trash
-            }
+            Table(
+                {
+                    title: "Nouvelle demande",
+                    icon: Icon.Add
+                },
+                {
+                    title: "Modifier",
+                    icon: Icon.Edit
+                },
+                {
+                    title: "Supprimer",
+                    icon: Icon.Trash
+                }
+            )
         );
-        
         ClearCollect(
             vd_demandes_elements_labels,
             Table(

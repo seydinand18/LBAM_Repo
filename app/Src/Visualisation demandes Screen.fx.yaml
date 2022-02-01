@@ -90,17 +90,17 @@
                             FillPortions: =2
                             Items: =vd_tabs_items
                             LayoutMinHeight: =20
-                            LayoutMinWidth: =320
+                            LayoutMinWidth: =20
                             ShowScrollbar: =false
-                            TemplateSize: =Parent.Width / CountRows(vd_tabs_items)
+                            TemplateSize: ='VD tabs gallery'.Width  / CountRows(vd_tabs_items)
                             ZIndex: =1
 
                             "'tab icon' As icon.Add":
                                 Height: =30
-                                Icon: =Icon.Add
+                                Icon: =ThisItem.icon
                                 OnSelect: =Select(Parent)
                                 Width: =30
-                                X: =40
+                                X: =('VD tabs gallery'.TemplateWidth - Self.Width) / 2
                                 ZIndex: =1
 
                         "'search bar container' As groupContainer.verticalAutoLayoutContainer":

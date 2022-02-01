@@ -883,7 +883,14 @@
   "tab icon": {
     "AllowAccessToGlobals": true,
     "ControlPropertyState": [
-      "Icon",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "Icon.Add",
+        "InvariantPropertyName": "Icon",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
       "Color",
       "DisabledColor",
       "PressedColor",
@@ -893,7 +900,14 @@
       "PressedFill",
       "HoverFill",
       "DisplayMode",
-      "X",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "40",
+        "InvariantPropertyName": "X",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
       "Y",
       {
         "AFDDataSourceName": "",
@@ -1543,7 +1557,14 @@
         "PropertyName": "AlignInContainer"
       },
       {
-        "ControlPropertyState": "LayoutMinWidth",
+        "ControlPropertyState": {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "LayoutMinWidth",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "Property": {
           "Category": "Design",
           "PropertyName": "LayoutMinWidth",

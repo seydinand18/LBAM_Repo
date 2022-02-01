@@ -89,7 +89,7 @@
     "Visualisation demandes Screen": 45
   },
   "FunctionParamsInvariantScripts": {},
-  "HeaderLastSavedDateTimeUTC": "02/01/2022 17:39:49",
+  "HeaderLastSavedDateTimeUTC": "02/01/2022 17:43:55",
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {
     "workflows": "7a00647a-ffe5-448c-9bcc-7afc709521b9.png"
@@ -151,6 +151,7 @@
     "Accounts\\default.cds_account_views": 36,
     "Accounts\\msdyn_account_msdyn_gdproptout": 0,
     "CustomGallerySample": 37,
+    "vd_demandes_elements_labels": 40,
     "vd_tabs_items": 39
   },
   "OrderGroupControls": {
@@ -275,6 +276,6 @@
       "text": 1
     },
     "DeserializationLoadTime": 1.5943606,
-    "ErrorCount": 12
+    "ErrorCount": 0
   }
 }

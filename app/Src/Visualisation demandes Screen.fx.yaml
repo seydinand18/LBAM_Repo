@@ -152,12 +152,12 @@
                         "'VD demands labels' As gallery.galleryHorizontal":
                             FillPortions: =0
                             Height: =Parent.Height / 12
-                            Items: =vd_tabs_items
+                            Items: =vd_demandes_elements_labels
                             LayoutMinHeight: =20
                             LayoutMinWidth: =20
                             ShowScrollbar: =false
                             TemplatePadding: =0
-                            TemplateSize: ='VD demands labels'.Width  / CountRows(vd_tabs_items)
+                            TemplateSize: ='VD demands labels'.Width  / CountRows(vd_demandes_elements_labels)
                             ZIndex: =2
 
                             "'vd column name' As label":

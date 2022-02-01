@@ -1,0 +1,9 @@
+[
+  {
+    "IsComponentScoped": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "Name": "vd_demandes_elements_labels",
+    "Type": "CollectionDataSourceInfo"
+  }
+]

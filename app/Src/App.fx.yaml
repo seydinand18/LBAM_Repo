@@ -1,31 +1,39 @@
 App As appinfo:
     BackEnabled: =false
     OnStart: |
-        =Set(colorTheme, RGBA(3,102,161,1));
-        
-        ClearCollect(vd_tabs_items, {
-            title : "Nouvelle demande",
-            icon : Icon.Add
-        }, {
-            title : "Modifier",
-            icon : Icon.Edit
-        }, {
-            title : "Supprimer",
-            icon : Icon.Trash
-        }
+        =Set(
+            colorTheme,
+            RGBA(
+                3,
+                102,
+                161,
+                1
+            )
+        );
+        ClearCollect(
+            vd_tabs_items,
+            {
+                title: "Nouvelle demande",
+                icon: Icon.Add
+            },
+            {
+                title: "Modifier",
+                icon: Icon.Edit
+            },
+            {
+                title: "Supprimer",
+                icon: Icon.Trash
+            }
         );
         
-        ClearCollect(vd_demandes_elements_labels, {
-            title : "Intitulé",
-        }, {
-            title : "Responsable de la demande",
-        }, {
-            title : "Date de début souhaitée", 
-        }, {
-            title : "Date de fin souhaitée", 
-        }
-        , {
-            title : "Etape actuelle", 
-        }
+        ClearCollect(
+            vd_demandes_elements_labels,
+            Table(
+                {title: "Intitulé"},
+                {title: "Responsable de la demande"},
+                {title: "Date de début souhaitée"},
+                {title: "Date de fin souhaitée"},
+                {title: "Etape actuelle"}
+            )
         );
 

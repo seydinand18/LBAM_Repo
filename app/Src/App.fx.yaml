@@ -3,7 +3,7 @@ App As appinfo:
     OnStart: |-
         =Set(colorTheme, RGBA(3,102,161,1));
         
-        Collect(vd_tabs_items, {
+        ClearCollect(vd_tabs_items, {
             title : "Nouvelle demande",
             icon : Icon.Add
         }, {

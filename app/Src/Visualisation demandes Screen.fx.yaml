@@ -95,7 +95,7 @@
                             TemplateSize: =Parent.Width / CountRows(vd_tabs_items)
                             ZIndex: =1
 
-                            Icon1 As icon.Add:
+                            "'tab icon' As icon.Add":
                                 Height: =30
                                 Icon: =Icon.Add
                                 OnSelect: =Select(Parent)

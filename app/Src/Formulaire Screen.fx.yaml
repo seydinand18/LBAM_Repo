@@ -121,15 +121,6 @@
                         Width: =5
                         ZIndex: =2
 
-                    "'Atos SN Ribbon Button Component_3' As 'Atos SN Ribbon Button Component'":
-                        FillPortions: =1
-                        Height: ='Atos SN Ribbon Button Component_3'.RibbonButtonHeight
-                        LayoutMinHeight: =640
-                        LayoutMinWidth: =640
-                        TextLabel: ="Supprimer cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
-                        Width: ='Atos SN Ribbon Button Component_3'.RibbonButtonWidth
-                        ZIndex: =3
-
                 "'Formulaire Footer container' As groupContainer.horizontalAutoLayoutContainer":
                     AlignInContainer: =AlignInContainer.SetByContainer
                     FillPortions: =0

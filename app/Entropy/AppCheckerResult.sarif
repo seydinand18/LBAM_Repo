@@ -14,156 +14,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Atos SN Menu Component.MenuOpenerIcon.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Atos SN Menu Component.MenuOpenerIcon.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Atos SN Menu Component",
-                "type": "Atos SN Menu Component.MenuOpenerIcon"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Atos SN Menu Component.MenuOpenerIcon.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Atos SN Menu Component.MenuOpenerIcon.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Atos SN Menu Component",
-                "type": "Atos SN Menu Component.MenuOpenerIcon"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Atos SN Menu Component.Gallery1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Atos SN Menu Component.Gallery1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Atos SN Menu Component",
-                "type": "Atos SN Menu Component.Gallery1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Atos SN Menu Component.Gallery1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Atos SN Menu Component.Gallery1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Atos SN Menu Component",
-                "type": "Atos SN Menu Component.Gallery1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Atos SN Menu Component.Gallery1.Button3.FocusedBorderThickness"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Atos SN Menu Component.Gallery1.Button3.FocusedBorderThickness",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "Atos SN Menu Component",
-                "type": "Atos SN Menu Component.Gallery1.Button3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "Atos SN Search Field Component.SearchTextInput.AccessibleLabel"
                 }
               ],
@@ -374,6 +224,156 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Atos SN Menu Component.MenuOpenerIcon.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Atos SN Menu Component.MenuOpenerIcon.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Atos SN Menu Component",
+                "type": "Atos SN Menu Component.MenuOpenerIcon"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Atos SN Menu Component.MenuOpenerIcon.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Atos SN Menu Component.MenuOpenerIcon.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Atos SN Menu Component",
+                "type": "Atos SN Menu Component.MenuOpenerIcon"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Atos SN Menu Component.Gallery1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Atos SN Menu Component.Gallery1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Atos SN Menu Component",
+                "type": "Atos SN Menu Component.Gallery1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Atos SN Menu Component.Gallery1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Atos SN Menu Component.Gallery1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Atos SN Menu Component",
+                "type": "Atos SN Menu Component.Gallery1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Atos SN Menu Component.Gallery1.Button3.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Atos SN Menu Component.Gallery1.Button3.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "Atos SN Menu Component",
+                "type": "Atos SN Menu Component.Gallery1.Button3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "Visualisation demandes Screen.Visualisation demandes Main container.Visualisation demandes Body container.Visualisation demandes No name container.Visualisation demandes Content container.VD menu container.VD tabs gallery.AccessibleLabel"
                 }
               ],
@@ -434,48 +434,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1"
+                  "fullyQualifiedName": "Visualisation demandes Screen.Visualisation demandes Main container.Visualisation demandes Body container.Visualisation demandes No name container.Visualisation demandes Content container.VD content container.VD demands labels.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "module": "Screen1",
-                "type": "Screen1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Low"
-          },
-          "ruleId": "acc-ReadableScreenNameNeeded",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Screen1.Gallery3.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Screen1.Gallery3.AccessibleLabel",
+                  "fullyQualifiedName": "Visualisation demandes Screen.Visualisation demandes Main container.Visualisation demandes Body container.Visualisation demandes No name container.Visualisation demandes Content container.VD content container.VD demands labels.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Screen1",
-                "type": "Screen1.Gallery3"
+                "module": "Visualisation demandes Screen",
+                "type": "Visualisation demandes Screen.Visualisation demandes Main container.Visualisation demandes Body container.Visualisation demandes No name container.Visualisation demandes Content container.VD content container.VD demands labels"
               }
             }
           ],
@@ -493,19 +464,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.Gallery3.TabIndex"
+                  "fullyQualifiedName": "Visualisation demandes Screen.Visualisation demandes Main container.Visualisation demandes Body container.Visualisation demandes No name container.Visualisation demandes Content container.VD content container.VD demands labels.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.Gallery3.TabIndex",
+                  "fullyQualifiedName": "Visualisation demandes Screen.Visualisation demandes Main container.Visualisation demandes Body container.Visualisation demandes No name container.Visualisation demandes Content container.VD content container.VD demands labels.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Screen1",
-                "type": "Screen1.Gallery3"
+                "module": "Visualisation demandes Screen",
+                "type": "Visualisation demandes Screen.Visualisation demandes Main container.Visualisation demandes Body container.Visualisation demandes No name container.Visualisation demandes Content container.VD content container.VD demands labels"
               }
             }
           ],
@@ -583,19 +554,18 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Visualisation demandes Screen.Visualisation demandes Main container.Visualisation demandes Body container.Visualisation demandes No name container.Visualisation demandes Content container.VD content container.VD demands labels.TabIndex"
+                  "fullyQualifiedName": "Screen1"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Visualisation demandes Screen.Visualisation demandes Main container.Visualisation demandes Body container.Visualisation demandes No name container.Visualisation demandes Content container.VD content container.VD demands labels.TabIndex",
+                  "fullyQualifiedName": "Screen1",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "TabIndex",
-                "module": "Visualisation demandes Screen",
-                "type": "Visualisation demandes Screen.Visualisation demandes Main container.Visualisation demandes Body container.Visualisation demandes No name container.Visualisation demandes Content container.VD content container.VD demands labels"
+                "module": "Screen1",
+                "type": "Screen1"
               }
             }
           ],
@@ -603,29 +573,58 @@
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "Low"
           },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleId": "acc-ReadableScreenNameNeeded",
+          "ruleIndex": 3
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Visualisation demandes Screen.Visualisation demandes Main container.Visualisation demandes Body container.Visualisation demandes No name container.Visualisation demandes Content container.VD content container.VD demands labels.AccessibleLabel"
+                  "fullyQualifiedName": "Screen2"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Visualisation demandes Screen.Visualisation demandes Main container.Visualisation demandes Body container.Visualisation demandes No name container.Visualisation demandes Content container.VD content container.VD demands labels.AccessibleLabel",
+                  "fullyQualifiedName": "Screen2",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "module": "Screen2",
+                "type": "Screen2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Low"
+          },
+          "ruleId": "acc-ReadableScreenNameNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Formulaire Screen.Formulaire Main container.Formulaire Body container.Formulaire No name container.FormulaireContent container.Gallery2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Formulaire Screen.Formulaire Main container.Formulaire Body container.Formulaire No name container.FormulaireContent container.Gallery2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Visualisation demandes Screen",
-                "type": "Visualisation demandes Screen.Visualisation demandes Main container.Visualisation demandes Body container.Visualisation demandes No name container.Visualisation demandes Content container.VD content container.VD demands labels"
+                "module": "Formulaire Screen",
+                "type": "Formulaire Screen.Formulaire Main container.Formulaire Body container.Formulaire No name container.FormulaireContent container.Gallery2"
               }
             }
           ],
@@ -637,6 +636,36 @@
           },
           "ruleId": "acc-AccessibleLabelNeeded",
           "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Formulaire Screen.Formulaire Main container.Formulaire Body container.Formulaire No name container.FormulaireContent container.Gallery2.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Formulaire Screen.Formulaire Main container.Formulaire Body container.Formulaire No name container.FormulaireContent container.Gallery2.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Formulaire Screen",
+                "type": "Formulaire Screen.Formulaire Main container.Formulaire Body container.Formulaire No name container.FormulaireContent container.Gallery2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
         }
       ],
       "tool": {

@@ -8,11 +8,3 @@ Screen1 As screen:
         Height: ='Atos SN Ribbon Button Component_2'.RibbonButtonHeight
         Width: ='Atos SN Ribbon Button Component_2'.RibbonButtonWidth
 
-    Gallery3 As gallery.galleryVertical:
-        Items: =vd_tabs_items
-        Layout: =Layout.Vertical
-        TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
-        X: =40
-        Y: =40
-        ZIndex: =1
-

@@ -96,6 +96,8 @@
   "ScreenOrder": [
     "Main Screen",
     "Visualisation demandes Screen",
-    "Screen1"
+    "Screen1",
+    "Screen2",
+    "Formulaire Screen"
   ]
 }

@@ -1,0 +1,143 @@
+"'Formulaire Screen' As screen":
+    BackgroundImage: =
+
+    "'Formulaire Main container' As groupContainer.horizontalAutoLayoutContainer":
+        Height: =Parent.Height
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        Width: =Parent.Width
+        X: =
+        ZIndex: =2
+
+        "'Formulaire Header container' As groupContainer.horizontalAutoLayoutContainer":
+            AlignInContainer: =AlignInContainer.SetByContainer
+            FillPortions: =0
+            Height: =50
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            Width: =Parent.Width
+            ZIndex: =1
+
+            "'Header component_2' As 'Atos SN Header Component'":
+                HeaderFill: =colorTheme
+                HeaderHeight: =Parent.Height
+                HeaderTitle: ="Atos - LBAM"
+                Height: ='Header component_2'.ShowDetailsHeight
+                LayoutMinHeight: =640
+                LayoutMinWidth: =640
+                ShowDetailsHeight: ='Header component_2'.HeaderHeight
+
+        "'Formulaire Body container' As groupContainer.horizontalAutoLayoutContainer":
+            AlignInContainer: =AlignInContainer.SetByContainer
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            Width: =Parent.Width
+            ZIndex: =2
+
+            "'Formulaire Menu container' As groupContainer.verticalAutoLayoutContainer":
+                AlignInContainer: =AlignInContainer.SetByContainer
+                FillPortions: =0
+                Height: =Parent.Height
+                LayoutDirection: =LayoutDirection.Vertical
+                LayoutMinHeight: =100
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                Width: ='Menu component_1'.MenuWidth
+                ZIndex: =2
+
+                "'Menu component_1' As 'Atos SN Menu Component'":
+                    Fill: ='Menu component_1'.MenuBgColor
+                    Height: =Parent.Height
+                    LayoutMinHeight: =640
+                    LayoutMinWidth: =640
+                    MenuBgColor: =ColorFade(colorTheme, -40%)
+                    OnReset: =Set(ExpandMenu, 'Menu component_1'.InExpandMenu)
+                    Width: ='Menu component_1'.MenuWidth
+
+            "'Formulaire No name container' As groupContainer.verticalAutoLayoutContainer":
+                AlignInContainer: =AlignInContainer.SetByContainer
+                FillPortions: =10
+                Height: =Parent.Height
+                LayoutDirection: =LayoutDirection.Vertical
+                LayoutMinHeight: =100
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                ZIndex: =3
+
+                "'FormulaireContent container' As groupContainer.verticalAutoLayoutContainer":
+                    AlignInContainer: =AlignInContainer.SetByContainer
+                    Fill: =RGBA(255, 255, 255, 1)
+                    LayoutMinHeight: =100
+                    LayoutMinWidth: =250
+                    LayoutMode: =LayoutMode.Auto
+                    Width: =Parent.Width
+                    ZIndex: =1
+
+                    Gallery2 As gallery.galleryVertical:
+                        FillPortions: =0
+                        Height: =
+                        Items: =vd_tabs_items
+                        Layout: =Layout.Vertical
+                        LayoutMinHeight: =287
+                        LayoutMinWidth: =50
+                        TemplateSize: ='FormulaireContent container'.Height/5
+                        Width: ='FormulaireContent container'.Width/8
+                        ZIndex: =1
+
+                        Button1 As button:
+                            BorderThickness: =0
+                            Fill: =RGBA(0, 0, 0, 0)
+                            Height: =Gallery2.TemplateHeight
+                            OnSelect: =Select(Parent)
+                            RadiusBottomLeft: =0
+                            RadiusBottomRight: =0
+                            RadiusTopLeft: =0
+                            RadiusTopRight: =0
+                            Text: =""
+                            Width: =Parent.Width
+                            ZIndex: =1
+
+                        Label4 As label:
+                            Align: =Align.Center
+                            OnSelect: =Select(Parent)
+                            Size: =12
+                            Text: =ThisItem.title
+                            Width: =Gallery2.TemplateWidth
+                            Y: =iconSize
+                            ZIndex: =2
+
+                        Icon1 As icon.Add:
+                            Height: =iconSize
+                            Icon: =ThisItem.icon
+                            OnSelect: =Select(Parent)
+                            Width: =iconSize
+                            X: =(Gallery2.TemplateWidth-Self.Width)/2
+                            ZIndex: =3
+
+                    Rectangle1 As rectangle:
+                        Height: ='FormulaireContent container'.Height
+                        Width: =5
+                        ZIndex: =2
+
+                "'Formulaire Footer container' As groupContainer.horizontalAutoLayoutContainer":
+                    AlignInContainer: =AlignInContainer.SetByContainer
+                    FillPortions: =0
+                    Height: =25
+                    LayoutMinHeight: =100
+                    LayoutMinWidth: =250
+                    LayoutMode: =LayoutMode.Auto
+                    Width: =Parent.Width
+                    ZIndex: =2
+
+                    "'Footer Component_2' As 'Atos SN Footer Component'":
+                        Fill: ='Footer Component_2'.FooterFill
+                        FooterFontSize: =7
+                        FooterHeight: =Parent.Height
+                        Height: ='Footer Component_2'.FooterHeight
+                        LayoutMinHeight: =640
+                        LayoutMinWidth: =640
+                        Width: =Parent.Width
+                        ZIndex: =1
+

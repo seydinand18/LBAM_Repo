@@ -10,10 +10,17 @@ App As appinfo:
                 1
             )
         );
-        
         //Var pour fixer la taille des icons
-        Set(iconSize,'FormulaireContent container'.Height/23.1);
-        
+        Set(
+            iconSize,
+            If(
+                ScreenSize.Small,
+                20,
+                Medium,
+                25,
+                30
+            )
+        );
         ClearCollect(
             vd_tabs_items,
             Table(

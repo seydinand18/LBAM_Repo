@@ -105,3 +105,9 @@
         X: =74
         ZIndex: =3
 
+    Button4 As button:
+        OnSelect: =Navigate('Formulaire Screen')
+        Text: ="Button"
+        X: =205
+        ZIndex: =4
+
